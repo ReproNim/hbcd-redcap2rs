@@ -1,0 +1,30 @@
+{
+    "id": "webcdi_es_age",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
+    "description": {
+        "en": "Age (in month) at time of WebCDI administration"
+    },
+    "preamble": {
+        "en": "WebCDI Instructions"
+    },
+    "prefLabel": {
+        "en": "webcdi_es_age"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

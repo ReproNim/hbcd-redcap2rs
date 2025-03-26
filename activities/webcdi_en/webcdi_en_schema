@@ -1,0 +1,102 @@
+{
+    "id": "webcdi_en_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "rounddown(datediff(screening_arm_1setup_delivery,'today','M'),0)",
+            "variableName": "webcdi_en_age"
+        },
+        {
+            "jsExpression": "concat('https: / / webcdi.stanford.edu / interface / HBCD / ',if(webcdi_en_age < 16 AND project - id == 44,'WG%20EN%20 - %20Sandbox',if(webcdi_en_age < 16 AND project - id == 57,'WG%20EN',if(webcdi_en_age >= 16 AND project - id == 44,'WS%20EN%20 - %20Sandbox',if(webcdi_en_age >= 16 AND project - id == 57,'WS%20EN','ERROR')))),' / new_parent / ?','source_id==',screening_arm_1record_id,'&','event_id==',event - name,'&','age==',webcdi_en_age,'&','sex==',screening_arm_1setup_sex,'&','offset==',screening_arm_1setup_offset)",
+            "variableName": "webcdi_en_url"
+        }
+    ],
+    "prefLabel": {
+        "en": "webcdi_en"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/webcdi_en_lang",
+            "items/webcdi_en_dtt",
+            "items/webcdi_en_timestamp_start",
+            "items/webcdi_en_001",
+            "items/webcdi_en_002",
+            "items/webcdi_en_instr",
+            "items/webcdi_en_banner_post",
+            "items/webcdi_en_completion_status",
+            "items/webcdi_en_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/webcdi_en_lang",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "webcdi_en_lang"
+            },
+            {
+                "isAbout": "items/webcdi_en_dtt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "webcdi_en_dtt"
+            },
+            {
+                "isAbout": "items/webcdi_en_timestamp_start",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "webcdi_en_timestamp_start"
+            },
+            {
+                "isAbout": "items/webcdi_en_age",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "webcdi_en_age"
+            },
+            {
+                "isAbout": "items/webcdi_en_url",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "webcdi_en_url"
+            },
+            {
+                "isAbout": "items/webcdi_en_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "webcdi_en_001"
+            },
+            {
+                "isAbout": "items/webcdi_en_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "webcdi_en_002"
+            },
+            {
+                "isAbout": "items/webcdi_en_instr",
+                "isVis": "webcdi_en_completion_status !== '1'",
+                "valueRequired": false,
+                "variableName": "webcdi_en_instr"
+            },
+            {
+                "isAbout": "items/webcdi_en_banner_post",
+                "isVis": "webcdi_en_completion_status == '1'",
+                "valueRequired": false,
+                "variableName": "webcdi_en_banner_post"
+            },
+            {
+                "isAbout": "items/webcdi_en_completion_status",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "webcdi_en_completion_status"
+            },
+            {
+                "isAbout": "items/webcdi_en_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_en_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid123",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
