@@ -1,13 +1,6 @@
 {
     "id": "sed_bm_demo_instr07_pre",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@NONEOFTHEABOVE='777,999'"
-        }
-    ],
     "preamble": {
         "en": "Work Environment"
     },
@@ -23,7 +16,8 @@
         ]
     },
     "ui": {
-        "inputType": "static"
+        "inputType": "static",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

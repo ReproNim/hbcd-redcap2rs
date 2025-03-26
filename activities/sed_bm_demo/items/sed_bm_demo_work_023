@@ -6,11 +6,6 @@
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "autocomplete"
-        },
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@NONEOFTHEABOVE='777,999'"
         }
     ],
     "prefLabel": {

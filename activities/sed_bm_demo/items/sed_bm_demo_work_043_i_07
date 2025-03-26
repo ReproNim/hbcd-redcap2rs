@@ -6,11 +6,6 @@
             "column": "Matrix Group Name",
             "source": "redcap",
             "value": "sed_bm_demo_work_043_m01"
-        },
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@NONEOFTHEABOVE='777,999'"
         }
     ],
     "preamble": {
