@@ -154,7 +154,7 @@ class ReproSchemaConverter:
 
                 filename = os.path.basename(item['Key'])
 
-                # Parse DataDict_2019-04-29_0930_revid2218_rev11.csv format
+                # Parse DataDict_2019-04-29_0930_revid2218_rev01.csv format
                 match = re.match(r'DataDict_(\d{4}-\d{2}-\d{2})_(\d{4})_revid(\d+)_rev(\d+)\.csv', filename)
                 if match:
                     date_str, time_str, revid, rev = match.groups()
@@ -406,6 +406,7 @@ class ReproSchemaConverter:
             # Get current version from repo
             current_version = self.get_latest_tag_version()
             redcap_version = file_info['revid']
+            rev = file_info['rev']
 
             logger.info(f"Processing file {filename}, redcap_version={redcap_version}, current_version={current_version}")
 
@@ -508,7 +509,7 @@ class ReproSchemaConverter:
                     tag_message = f"redcap data dictionary {date_time_str} revid{redcap_version} to reproschema"
 
                     # Include revision ID in the tag name to make it unique
-                    tag_name = f"{date_time_str.replace('-', '.').replace('_', '.')}-rev{redcap_version}"
+                    tag_name = f"{date_time_str.replace('-', '.').replace('_', '.')}-revid{redcap_version}-rev{rev}"
 
                     return self.commit_and_tag(commit_message, tag_name, tag_message, folders_to_update)
 
