@@ -1,0 +1,73 @@
+{
+    "id": "ph_cg_pms_i_pags_006",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "ph_cg_pms_i_pags_m01"
+        }
+    ],
+    "preamble": {
+        "en": "In the past 7 days:"
+    },
+    "prefLabel": {
+        "en": "ph_cg_pms_i_pags_006"
+    },
+    "question": {
+        "en": "How many days did your child do vigorous physical activities for 30 mins or more?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No days"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2-3 days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "4-5 days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "6-7 days"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

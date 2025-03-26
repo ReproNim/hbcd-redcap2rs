@@ -96,25 +96,25 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_lang",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_lang"
             },
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_dtt",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_dtt"
             },
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_timestamp_start",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_timestamp_start"
             },
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_location",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_location"
             },
             {
@@ -180,7 +180,7 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_008",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_008"
             },
             {
@@ -204,13 +204,13 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_010",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_010"
             },
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_011",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_011"
             },
             {
@@ -402,7 +402,7 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_004",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_004"
             },
             {
@@ -426,7 +426,7 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_006",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_006"
             },
             {
@@ -498,6 +498,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid114",
+    "version": "revid116",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -15,7 +15,7 @@
         "en": "mh_cg_mapstl_i_tod_020"
     },
     "question": {
-        "en": "Have a temper tantrum when s/he was tired, hungry, or sick"
+        "en": "Have a temper tantrum when tired, hungry, or sick"
     },
     "responseOptions": {
         "choices": [
@@ -54,12 +54,6 @@
                     "en": "Many times each day"
                 },
                 "value": 6
-            },
-            {
-                "name": {
-                    "en": "Don't know"
-                },
-                "value": 999
             },
             {
                 "name": {

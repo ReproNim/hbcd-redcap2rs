@@ -15,7 +15,7 @@
         "en": "mh_cg_mapstl_i_tod_032"
     },
     "question": {
-        "en": "Make you feel that you have to \"walk on eggshells\" to avoid setting him/her off"
+        "en": "Make you feel that you have to \"walk on eggshells\" to avoid setting your child off"
     },
     "responseOptions": {
         "choices": [
@@ -54,12 +54,6 @@
                     "en": "Many times each day"
                 },
                 "value": 6
-            },
-            {
-                "name": {
-                    "en": "Don't know"
-                },
-                "value": 999
             },
             {
                 "name": {

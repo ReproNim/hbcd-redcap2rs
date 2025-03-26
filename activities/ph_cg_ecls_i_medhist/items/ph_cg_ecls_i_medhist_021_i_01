@@ -1,0 +1,54 @@
+{
+    "id": "ph_cg_ecls_i_medhist_021_i_01",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Medical specialty care"
+    },
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_021_i_01"
+    },
+    "question": {
+        "en": "What were the results?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Passed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Didn't pass"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Referred but not yet tested"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "ph_cg_inq_003_i_01",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Infant Nutrition Questionnaire"
+    },
+    "prefLabel": {
+        "en": "ph_cg_inq_003_i_01"
+    },
+    "question": {
+        "en": "How old was the child when they started drinking formula?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Days old"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Weeks old"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Months old"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -15,7 +15,7 @@
         "en": "mh_cg_mapstl_i_tod_005"
     },
     "question": {
-        "en": "Stamp his/her feet when frustrated"
+        "en": "Stamp feet when frustrated"
     },
     "responseOptions": {
         "choices": [
@@ -54,12 +54,6 @@
                     "en": "Many times each day"
                 },
                 "value": 6
-            },
-            {
-                "name": {
-                    "en": "Don't know"
-                },
-                "value": 999
             },
             {
                 "name": {

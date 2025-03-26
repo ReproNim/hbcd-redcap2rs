@@ -15,7 +15,7 @@
         "en": "mh_cg_mapstl_i_tod_029"
     },
     "question": {
-        "en": "Have a temper tantrum until s/he was exhausted"
+        "en": "Have a temper tantrum until your child was exhausted"
     },
     "responseOptions": {
         "choices": [
@@ -54,12 +54,6 @@
                     "en": "Many times each day"
                 },
                 "value": 6
-            },
-            {
-                "name": {
-                    "en": "Don't know"
-                },
-                "value": 999
             },
             {
                 "name": {

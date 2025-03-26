@@ -1,0 +1,30 @@
+{
+    "id": "ph_cg_ecls_i_medhist_017_i_10",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Medications: Since the last time we discussed your child's medical history"
+    },
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_017_i_10"
+    },
+    "question": {
+        "en": "Name of prescription medication 9"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "BIOPORTAL:RXNORM"
+                },
+                "value": "BIOPORTAL:RXNORM"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

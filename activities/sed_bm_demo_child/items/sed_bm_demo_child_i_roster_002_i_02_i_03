@@ -1,0 +1,30 @@
+{
+    "id": "sed_bm_demo_child_i_roster_002_i_02_i_03",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
+    "description": {
+        "en": "Total number in household"
+    },
+    "preamble": {
+        "en": "Household 1"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_002_i_02_i_03"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
