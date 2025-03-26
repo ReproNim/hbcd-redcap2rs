@@ -1,0 +1,94 @@
+{
+    "id": "mh_cg_mapstl_i_easi_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_mapstl_i_easi"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_mapstl_i_easi_lang",
+            "items/mh_cg_mapstl_i_easi_dtt",
+            "items/mh_cg_mapstl_i_easi_timestamp_start",
+            "items/mh_cg_mapstl_i_easi_location",
+            "items/mh_cg_mapstl_i_easi_instr01",
+            "items/mh_cg_mapstl_i_easi_001",
+            "items/mh_cg_mapstl_i_easi_002",
+            "items/mh_cg_mapstl_i_easi_003",
+            "items/mh_cg_mapstl_i_easi_004",
+            "items/mh_cg_mapstl_i_easi_005",
+            "items/mh_cg_mapstl_i_easi_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_lang",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapstl_i_easi_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_dtt",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapstl_i_easi_dtt"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_timestamp_start",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapstl_i_easi_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_location",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapstl_i_easi_location"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_instr01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_instr01"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapstl_i_easi_001"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapstl_i_easi_002"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapstl_i_easi_003"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapstl_i_easi_004"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapstl_i_easi_005"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid232",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

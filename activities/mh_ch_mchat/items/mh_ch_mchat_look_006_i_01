@@ -1,0 +1,39 @@
+{
+    "id": "mh_ch_mchat_look_006_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mh_ch_mchat_look_m02"
+        },
+        {
+            "column": "Matrix Ranking?",
+            "source": "redcap",
+            "value": "y"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_ch_mchat_look_006_i_01"
+    },
+    "question": {
+        "en": "Look around to see what you are looking at?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Most often"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

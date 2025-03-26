@@ -1,0 +1,20 @@
+{
+    "id": "sed_cg_incarc_instr_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_incarc_instr_02"
+    },
+    "question": {
+        "en": "For each household member checked above, please answer the following questions."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

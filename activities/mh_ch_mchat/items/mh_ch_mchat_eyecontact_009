@@ -1,0 +1,33 @@
+{
+    "id": "mh_ch_mchat_eyecontact_009",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_ch_mchat_eyecontact_009"
+    },
+    "question": {
+        "en": "On a day when you are together all day, does your child look you in the eye at least 5 times?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

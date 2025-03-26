@@ -78,7 +78,7 @@
             },
             {
                 "name": {
-                    "en": "A Physical Disability"
+                    "en": "A Disability"
                 },
                 "value": 11
             },
@@ -87,6 +87,24 @@
                     "en": "Substance Use / Addiction"
                 },
                 "value": 12
+            },
+            {
+                "name": {
+                    "en": "Mental Health or Neurodivergence"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Physical Health"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "A reason not listed"
+                },
+                "value": 15
             },
             {
                 "name": {

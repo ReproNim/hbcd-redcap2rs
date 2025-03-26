@@ -1,6 +1,13 @@
 {
     "id": "sed_cg_nsc_013_i_01",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
         "en": "The next questions ask about the experiences ofclose family members or friendswith the police in the community"
     },
@@ -54,7 +61,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

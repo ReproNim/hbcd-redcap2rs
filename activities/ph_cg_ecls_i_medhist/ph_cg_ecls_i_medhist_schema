@@ -77,6 +77,8 @@
             "items/ph_cg_ecls_i_medhist_020_i_01",
             "items/ph_cg_ecls_i_medhist_021",
             "items/ph_cg_ecls_i_medhist_021_i_01",
+            "items/ph_cg_ecls_i_medhist_032",
+            "items/ph_cg_ecls_i_medhist_033",
             "items/ph_cg_ecls_i_medhist_022",
             "items/ph_cg_ecls_i_medhist_023",
             "items/ph_cg_ecls_i_medhist_024",
@@ -558,6 +560,18 @@
                 "variableName": "ph_cg_ecls_i_medhist_021_i_01"
             },
             {
+                "isAbout": "items/ph_cg_ecls_i_medhist_032",
+                "isVis": "event - name == 'v04_arm_1'",
+                "valueRequired": true,
+                "variableName": "ph_cg_ecls_i_medhist_032"
+            },
+            {
+                "isAbout": "items/ph_cg_ecls_i_medhist_033",
+                "isVis": "event - name == 'v06_arm_1'",
+                "valueRequired": true,
+                "variableName": "ph_cg_ecls_i_medhist_033"
+            },
+            {
                 "isAbout": "items/ph_cg_ecls_i_medhist_022",
                 "isVis": true,
                 "valueRequired": false,
@@ -908,6 +922,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid147",
+    "version": "revid232",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

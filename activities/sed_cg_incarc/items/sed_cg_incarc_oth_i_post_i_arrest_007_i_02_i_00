@@ -1,0 +1,20 @@
+{
+    "id": "sed_cg_incarc_oth_i_post_i_arrest_007_i_02_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_incarc_oth_i_post_i_arrest_007_i_02_i_00"
+    },
+    "question": {
+        "en": "How many times has the child's stepfather been arrested since this child was born? {sed_cg_incarc_oth_i_post_i_arrest_007_i_02} {sed_cg_incarc_oth_i_post_i_arrest_007_i_02_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "mh_cg_cbcl_i_1to5_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_cbcl_i_1to5_instr01"
+    },
+    "question": {
+        "en": "Below is a list of items that describe children. For each item that describes your child now or within the past 2 months, please choose whether the item is very true or often true of your child, somewhat or sometimes true of your child, or not true of your child. Please answer all items as well as you can, even if some do not seem to apply to your child."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

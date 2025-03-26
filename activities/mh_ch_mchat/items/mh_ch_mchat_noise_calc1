@@ -1,0 +1,27 @@
+{
+    "id": "mh_ch_mchat_noise_calc1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
+    "description": {
+        "en": "Sum noises"
+    },
+    "prefLabel": {
+        "en": "mh_ch_mchat_noise_calc1"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

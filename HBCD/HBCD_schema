@@ -83,9 +83,17 @@
             "../activities/sed_bm_demo_child/sed_bm_demo_child_schema",
             "../activities/admin_part_fb/admin_part_fb_schema",
             "../activities/ncl_ch_mlds/ncl_ch_mlds_schema",
-            "../activities/nc_cg_vabs/nc_cg_vabs_schema",
+            "../activities/ncl_cg_vabs/ncl_cg_vabs_schema",
             "../activities/webcdi_en/webcdi_en_schema",
-            "../activities/webcdi_es/webcdi_es_schema"
+            "../activities/webcdi_es/webcdi_es_schema",
+            "../activities/mh_cg_cbcl_i_1to5/mh_cg_cbcl_i_1to5_schema",
+            "../activities/mh_cg_mapstl_i_easi/mh_cg_mapstl_i_easi_schema",
+            "../activities/mh_cg_mapstl_i_easi_i_prek/mh_cg_mapstl_i_easi_i_prek_schema",
+            "../activities/mh_cg_cbq/mh_cg_cbq_schema",
+            "../activities/mh_cg_quic/mh_cg_quic_schema",
+            "../activities/ph_cg_pedsql/ph_cg_pedsql_schema",
+            "../activities/sed_cg_incarc/sed_cg_incarc_schema",
+            "../activities/mh_ch_mchat/mh_ch_mchat_schema"
         ],
         "addProperties": [
             {
@@ -673,12 +681,12 @@
                 "variableName": "ncl_ch_mlds_schema"
             },
             {
-                "isAbout": "../activities/nc_cg_vabs/nc_cg_vabs_schema",
+                "isAbout": "../activities/ncl_cg_vabs/ncl_cg_vabs_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Nc Cg Vabs"
+                    "en": "Ncl Cg Vabs"
                 },
-                "variableName": "nc_cg_vabs_schema"
+                "variableName": "ncl_cg_vabs_schema"
             },
             {
                 "isAbout": "../activities/webcdi_en/webcdi_en_schema",
@@ -695,10 +703,74 @@
                     "en": "Webcdi Es"
                 },
                 "variableName": "webcdi_es_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_cbcl_i_1to5/mh_cg_cbcl_i_1to5_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Cbcl I 1To5"
+                },
+                "variableName": "mh_cg_cbcl_i_1to5_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_mapstl_i_easi/mh_cg_mapstl_i_easi_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Mapstl I Easi"
+                },
+                "variableName": "mh_cg_mapstl_i_easi_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_mapstl_i_easi_i_prek/mh_cg_mapstl_i_easi_i_prek_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Mapstl I Easi I Prek"
+                },
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_cbq/mh_cg_cbq_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Cbq"
+                },
+                "variableName": "mh_cg_cbq_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_quic/mh_cg_quic_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Quic"
+                },
+                "variableName": "mh_cg_quic_schema"
+            },
+            {
+                "isAbout": "../activities/ph_cg_pedsql/ph_cg_pedsql_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Cg Pedsql"
+                },
+                "variableName": "ph_cg_pedsql_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_incarc/sed_cg_incarc_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Incarc"
+                },
+                "variableName": "sed_cg_incarc_schema"
+            },
+            {
+                "isAbout": "../activities/mh_ch_mchat/mh_ch_mchat_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Ch Mchat"
+                },
+                "variableName": "mh_ch_mchat_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid147",
+    "version": "revid232",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

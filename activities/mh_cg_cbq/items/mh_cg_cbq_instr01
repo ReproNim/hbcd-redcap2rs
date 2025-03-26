@@ -1,0 +1,20 @@
+{
+    "id": "mh_cg_cbq_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_cbq_instr01"
+    },
+    "question": {
+        "en": "On the next pages you will see a set of statements that describe children's reactions to a number of situations.  We would like you to tell us whatyourchild's reaction is likely to be in those situations.  There are of course no \"correct\" ways of reacting; children differ widely in their reactions, and it is these differences we are trying to learn about.  Please read each statement and decide whether it is a \"true\" or \"untrue\" description of your child's reactionwithin the past six months.  Use the following scale to indicate how well a statement describes your child: \n\n    Select #\tIf the statement is:\n\n\t1\textremely untrue of your child\n\t2\tquite untrue of your child\n\t3\tslightly untrue of your child\n\t4\tneither true nor false of your child\n\t5\tslightly true of your child\n\t6\tquite true of your child\n\t7\textremely true of your child\n\nIf you cannot answer one of the items because you have never seen the child in that situation, for example, if the statement is about the child's reaction to your singing and you have never sung to your child, then select NA (not applicable)."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
