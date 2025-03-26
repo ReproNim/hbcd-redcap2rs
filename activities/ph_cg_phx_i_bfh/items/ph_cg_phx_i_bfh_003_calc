@@ -1,0 +1,27 @@
+{
+    "id": "ph_cg_phx_i_bfh_003_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
+    "description": {
+        "en": "Still bf calc"
+    },
+    "prefLabel": {
+        "en": "ph_cg_phx_i_bfh_003_calc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

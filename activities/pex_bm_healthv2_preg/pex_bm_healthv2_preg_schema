@@ -928,19 +928,19 @@
             },
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_exp_i_pnv_007",
-                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02 == '0' AND screening_arm_1recruitment_period =='1'",
+                "isVis": "v01_arm_1pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02 == '0' AND screening_arm_1recruitment_period =='1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_exp_i_pnv_007"
             },
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_exp_i_pnv_007_i_01",
-                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006 == '1' AND screening_arm_1recruitment_period =='1'",
+                "isVis": "pex_bm_healthv2_preg_i_exp_i_pnv_007_i_01 == '1' AND screening_arm_1recruitment_period =='1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_exp_i_pnv_007_i_01"
             },
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_exp_i_pnv_008",
-                "isVis": "(pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006 == '0' OR pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02 == '1')AND screening_arm_1recruitment_period =='1'",
+                "isVis": "(v01_arm_1pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006 == '0' OR v01_arm_1pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02 == '1')AND screening_arm_1recruitment_period =='1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_exp_i_pnv_008"
             },
@@ -5351,6 +5351,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid233",
+    "version": "revid270",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
