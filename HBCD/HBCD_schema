@@ -44,11 +44,6 @@
             "../activities/pex_bm_assistv2/pex_bm_assistv2_schema",
             "../activities/nt_ch_sens_i_qtn/nt_ch_sens_i_qtn_schema",
             "../activities/pex_bm_psych/pex_bm_psych_schema",
-            "../activities/mh_cg_pms_i_anx/mh_cg_pms_i_anx_schema",
-            "../activities/mh_cg_pms_i_selfreg/mh_cg_pms_i_selfreg_schema",
-            "../activities/mh_cg_pms_i_depr/mh_cg_pms_i_depr_schema",
-            "../activities/mh_cg_pms_i_cc_i_1to5/mh_cg_pms_i_cc_i_1to5_schema",
-            "../activities/mh_cg_mapstl_i_tod/mh_cg_mapstl_i_tod_schema",
             "../activities/admin_part_fb/admin_part_fb_schema",
             "../activities/admin_alert/admin_alert_schema",
             "../activities/ra_pilot_feedback_form/ra_pilot_feedback_form_schema"
@@ -327,46 +322,6 @@
                 "variableName": "pex_bm_psych_schema"
             },
             {
-                "isAbout": "../activities/mh_cg_pms_i_anx/mh_cg_pms_i_anx_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Mh Cg Pms I Anx"
-                },
-                "variableName": "mh_cg_pms_i_anx_schema"
-            },
-            {
-                "isAbout": "../activities/mh_cg_pms_i_selfreg/mh_cg_pms_i_selfreg_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Mh Cg Pms I Selfreg"
-                },
-                "variableName": "mh_cg_pms_i_selfreg_schema"
-            },
-            {
-                "isAbout": "../activities/mh_cg_pms_i_depr/mh_cg_pms_i_depr_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Mh Cg Pms I Depr"
-                },
-                "variableName": "mh_cg_pms_i_depr_schema"
-            },
-            {
-                "isAbout": "../activities/mh_cg_pms_i_cc_i_1to5/mh_cg_pms_i_cc_i_1to5_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Mh Cg Pms I Cc I 1To5"
-                },
-                "variableName": "mh_cg_pms_i_cc_i_1to5_schema"
-            },
-            {
-                "isAbout": "../activities/mh_cg_mapstl_i_tod/mh_cg_mapstl_i_tod_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Mh Cg Mapstl I Tod"
-                },
-                "variableName": "mh_cg_mapstl_i_tod_schema"
-            },
-            {
                 "isAbout": "../activities/admin_part_fb/admin_part_fb_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -393,6 +348,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid0",
+    "version": "revid94",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
