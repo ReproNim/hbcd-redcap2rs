@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@NONEOFTHEABOVE='777,999'"
+            "value": "@NONEOFTHEABOVE='777,999,12'"
         }
     ],
     "preamble": {
@@ -84,6 +84,12 @@
                     "en": "Other"
                 },
                 "value": 11
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 12
             },
             {
                 "name": {
