@@ -3,10 +3,6 @@
     "category": "reproschema:Activity",
     "compute": [
         {
-            "jsExpression": "screening_arm_1setup_lmp",
-            "variableName": "pex_bm_health_preg_i_healthhx_001"
-        },
-        {
             "jsExpression": "(pex_bm_health_preg_i_healthhx_007_i_01 * 12 + pex_bm_health_preg_i_healthhx_007_i_02)* 2.54",
             "variableName": "pex_bm_health_preg_i_healthhx_008"
         },
@@ -120,12 +116,6 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "pex_bm_health_preg_i_healthhx_location"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg_i_healthhx_001",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "pex_bm_health_preg_i_healthhx_001"
             },
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_002",
@@ -508,6 +498,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid99",
+    "version": "revid104",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

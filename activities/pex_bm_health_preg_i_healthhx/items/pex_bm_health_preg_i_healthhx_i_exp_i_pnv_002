@@ -10,7 +10,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@CALCDATE([pex_bm_health_preg_i_healthhx_001], 84, \"d\") @HIDDEN"
+            "value": "@CALCDATE([screening_arm_1][setup_lmp], 84, \"d\") @HIDDEN"
         }
     ],
     "preamble": {

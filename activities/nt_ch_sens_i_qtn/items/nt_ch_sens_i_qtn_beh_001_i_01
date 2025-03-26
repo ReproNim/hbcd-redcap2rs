@@ -1,6 +1,13 @@
 {
     "id": "nt_ch_sens_i_qtn_beh_001_i_01",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='777,999'"
+        }
+    ],
     "preamble": {
         "en": "Infant's Behavior"
     },

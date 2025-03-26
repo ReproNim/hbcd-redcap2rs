@@ -1,6 +1,13 @@
 {
     "id": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='777,999'"
+        }
+    ],
     "preamble": {
         "en": "Pregnancy Exposures\n\nPrenatal Vitamins, Multivitamins, Folic Acid and Herbal Supplements"
     },
@@ -29,6 +36,12 @@
                     "en": "Methamphetamine"
                 },
                 "value": 3
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 4
             },
             {
                 "name": {

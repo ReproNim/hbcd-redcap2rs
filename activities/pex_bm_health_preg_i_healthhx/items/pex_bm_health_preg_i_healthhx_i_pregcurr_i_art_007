@@ -1,6 +1,13 @@
 {
     "id": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_007",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='777,999'"
+        }
+    ],
     "preamble": {
         "en": "Current Pregnancy - ART"
     },

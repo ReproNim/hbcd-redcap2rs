@@ -66,12 +66,6 @@
             },
             {
                 "name": {
-                    "en": "Don't know"
-                },
-                "value": 999
-            },
-            {
-                "name": {
                     "en": "Decline to answer"
                 },
                 "value": 777
