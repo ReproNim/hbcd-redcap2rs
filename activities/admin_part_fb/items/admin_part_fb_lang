@@ -1,0 +1,41 @@
+{
+    "id": "admin_part_fb_lang",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN @LANGUAGE-CURRENT-SURVEY"
+        }
+    ],
+    "prefLabel": {
+        "en": "admin_part_fb_lang"
+    },
+    "question": {
+        "en": "Language"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "English"
+                },
+                "value": "en"
+            },
+            {
+                "name": {
+                    "en": "Spanish"
+                },
+                "value": "es"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "setup_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "setup"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/record_id",
+            "items/setup_lmp",
+            "items/setup_edd",
+            "items/setup_delivery",
+            "items/recruitment_period",
+            "items/setup_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/record_id",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "record_id"
+            },
+            {
+                "isAbout": "items/setup_lmp",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "setup_lmp"
+            },
+            {
+                "isAbout": "items/setup_edd",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "setup_edd"
+            },
+            {
+                "isAbout": "items/setup_delivery",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "setup_delivery"
+            },
+            {
+                "isAbout": "items/recruitment_period",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "recruitment_period"
+            },
+            {
+                "isAbout": "items/setup_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "setup_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,30 @@
+{
+    "id": "pex_bm_healthv2_inf_i_meds_010_i_00",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Infant Exposures"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_i_meds_010_i_00"
+    },
+    "question": {
+        "en": "What is the first medication (over-the-counter) your infant used? {pex_bm_healthv2_inf_i_meds_010} {pex_bm_healthv2_inf_i_meds_010_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

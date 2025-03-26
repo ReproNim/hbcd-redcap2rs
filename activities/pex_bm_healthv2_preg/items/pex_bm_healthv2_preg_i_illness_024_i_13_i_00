@@ -1,0 +1,30 @@
+{
+    "id": "pex_bm_healthv2_preg_i_illness_024_i_13_i_00",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Other Pregnancy Exposures"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_illness_024_i_13_i_00"
+    },
+    "question": {
+        "en": "How many hours or days did the fever last? {pex_bm_healthv2_preg_i_illness_024_i_13_i_01} {pex_bm_healthv2_preg_i_illness_024_i_13_i_02} {pex_bm_healthv2_preg_i_illness_024_i_13_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

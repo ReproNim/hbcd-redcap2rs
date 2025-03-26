@@ -1,0 +1,20 @@
+{
+    "id": "admin_alert_ehits",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "admin_alert_ehits"
+    },
+    "question": {
+        "en": "Alert (eHITS)The participant has endorsed being harmed by their partner."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

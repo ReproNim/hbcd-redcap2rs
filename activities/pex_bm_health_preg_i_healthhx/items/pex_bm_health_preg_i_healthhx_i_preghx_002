@@ -1,0 +1,37 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_preghx_002",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "[pex_bm_health_preg_i_healthhx_i_preghx_001]"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_preghx_002"
+    },
+    "question": {
+        "en": "How many times has your pregnancy ended in a live birth?"
+    },
+    "responseOptions": {
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

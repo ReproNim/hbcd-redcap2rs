@@ -1,0 +1,35 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_002",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_mdy"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@CALCDATE([pex_bm_health_preg_i_healthhx_001], 84, \"d\") @HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "Pregnancy Exposures\n\nPrenatal Vitamins, Multivitamins, Folic Acid and Herbal Supplements"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_002"
+    },
+    "question": {
+        "en": "Trimester 1 (end)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

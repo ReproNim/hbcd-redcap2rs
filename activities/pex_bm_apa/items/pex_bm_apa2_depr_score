@@ -1,0 +1,27 @@
+{
+    "id": "pex_bm_apa2_depr_score",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
+    "description": {
+        "en": "APA - Summary Score - Sum"
+    },
+    "prefLabel": {
+        "en": "pex_bm_apa2_depr_score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
