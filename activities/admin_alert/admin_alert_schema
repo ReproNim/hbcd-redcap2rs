@@ -1,0 +1,87 @@
+{
+    "id": "admin_alert_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "admin_alert"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/admin_alert_fb_dtt",
+            "items/admin_alert_timestamp_start",
+            "items/admin_alert_instr01",
+            "items/admin_alert_none",
+            "items/admin_alert_apa_1",
+            "items/admin_alert_apa_2",
+            "items/admin_alert_epds_1",
+            "items/admin_alert_epds_2",
+            "items/admin_alert_ehits",
+            "items/admin_alert_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/admin_alert_fb_dtt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "admin_alert_fb_dtt"
+            },
+            {
+                "isAbout": "items/admin_alert_timestamp_start",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "admin_alert_timestamp_start"
+            },
+            {
+                "isAbout": "items/admin_alert_instr01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "admin_alert_instr01"
+            },
+            {
+                "isAbout": "items/admin_alert_none",
+                "isVis": "event - namepex_bm_apa1_flag01 !== 1 AND event - namepex_bm_apa2_depr_flag01 !== 1 AND event - namepex_bm_epds_flag01 !== 1 AND event - namepex_bm_epds_flag02 !== 1 AND event - namesed_bm_ehits_flag01 !== 1",
+                "valueRequired": false,
+                "variableName": "admin_alert_none"
+            },
+            {
+                "isAbout": "items/admin_alert_apa_1",
+                "isVis": "event - namepex_bm_apa1_flag01 == 1",
+                "valueRequired": false,
+                "variableName": "admin_alert_apa_1"
+            },
+            {
+                "isAbout": "items/admin_alert_apa_2",
+                "isVis": "event - namepex_bm_apa2_depr_flag01 == 1",
+                "valueRequired": false,
+                "variableName": "admin_alert_apa_2"
+            },
+            {
+                "isAbout": "items/admin_alert_epds_1",
+                "isVis": "event - namepex_bm_epds_flag01 == 1",
+                "valueRequired": false,
+                "variableName": "admin_alert_epds_1"
+            },
+            {
+                "isAbout": "items/admin_alert_epds_2",
+                "isVis": "event - namepex_bm_epds_flag02 == 1",
+                "valueRequired": false,
+                "variableName": "admin_alert_epds_2"
+            },
+            {
+                "isAbout": "items/admin_alert_ehits",
+                "isVis": "event - namesed_bm_ehits_flag01 == 1",
+                "valueRequired": false,
+                "variableName": "admin_alert_ehits"
+            },
+            {
+                "isAbout": "items/admin_alert_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "admin_alert_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

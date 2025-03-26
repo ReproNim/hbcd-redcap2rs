@@ -1,0 +1,43 @@
+{
+    "id": "pex_bm_healthv2_preg_i_meds_051_i_04_dk",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Medications- Pregnancy"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_meds_051_i_04_dk"
+    },
+    "question": {
+        "en": "med start date dk/decline"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

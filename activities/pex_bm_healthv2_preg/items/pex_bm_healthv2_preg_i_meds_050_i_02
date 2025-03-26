@@ -1,0 +1,37 @@
+{
+    "id": "pex_bm_healthv2_preg_i_meds_050_i_02",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Medications- Pregnancy"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_meds_050_i_02"
+    },
+    "question": {
+        "en": "For what indication did you take this medication?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "BIOPORTAL:ICD10"
+                },
+                "value": "BIOPORTAL:ICD10"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

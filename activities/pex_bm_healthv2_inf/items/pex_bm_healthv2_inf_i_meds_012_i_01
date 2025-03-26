@@ -1,0 +1,37 @@
+{
+    "id": "pex_bm_healthv2_inf_i_meds_012_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Infant Exposures"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_i_meds_012_i_01"
+    },
+    "question": {
+        "en": "For what indication was your infant prescribed this medication?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "BIOPORTAL:ICD10"
+                },
+                "value": "BIOPORTAL:ICD10"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Pregnancy Exposures\n\nPrenatal Vitamins, Multivitamins, Folic Acid and Herbal Supplements"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02"
+    },
+    "question": {
+        "en": "Have you stopped taking these vitamins?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No, continuing to use"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
