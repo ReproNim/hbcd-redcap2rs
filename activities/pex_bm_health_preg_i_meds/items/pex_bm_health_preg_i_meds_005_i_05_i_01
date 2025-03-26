@@ -8,16 +8,6 @@
             "value": "date_mdy"
         },
         {
-            "column": "Text Validation Min",
-            "source": "redcap",
-            "value": "[pex_bm_health_preg_i_meds_start_01]"
-        },
-        {
-            "column": "Text Validation Max",
-            "source": "redcap",
-            "value": "today"
-        },
-        {
             "column": "Custom Alignment",
             "source": "redcap",
             "value": "RH"
