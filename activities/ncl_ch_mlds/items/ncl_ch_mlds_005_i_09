@@ -1,0 +1,79 @@
+{
+    "id": "ncl_ch_mlds_005_i_09",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='999,777'"
+        }
+    ],
+    "preamble": {
+        "en": "SECOND non-parental childcare arrangement"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_mlds_005_i_09"
+    },
+    "question": {
+        "en": "What kind of arrangement is this?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "In-home babysitter (nonrelative)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "In-home babysitter (relative-e.g. grandparent)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Out-of-home babysitter (nonrelative)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Out-of-home babysitter (relative)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Home-based daycare center"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Center Care"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

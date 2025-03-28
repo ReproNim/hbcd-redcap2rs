@@ -10,6 +10,7 @@
             "items/parent_introduction_v4",
             "items/parent_introduction_v5",
             "items/parent_introduction_v6",
+            "items/parent_introduction_v7",
             "items/parent_survey_introduction_complete"
         ],
         "addProperties": [
@@ -32,6 +33,12 @@
                 "variableName": "parent_introduction_v6"
             },
             {
+                "isAbout": "items/parent_introduction_v7",
+                "isVis": "event - name == 'v07_arm_1'",
+                "valueRequired": false,
+                "variableName": "parent_introduction_v7"
+            },
+            {
                 "isAbout": "items/parent_survey_introduction_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -40,6 +47,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid234",
+    "version": "revid271",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
