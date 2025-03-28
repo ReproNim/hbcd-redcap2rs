@@ -1,0 +1,37 @@
+{
+    "id": "pex_bm_healthv2_preg_i_illness_019_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Other Pregnancy Exposures"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_illness_019_i_01"
+    },
+    "question": {
+        "en": "Name of fifth illness (ICD-10)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "BIOPORTAL:ICD10"
+                },
+                "value": "BIOPORTAL:ICD10"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

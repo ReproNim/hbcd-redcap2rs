@@ -1,0 +1,48 @@
+{
+    "id": "pex_bm_health_preg_i_chroncond_004",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Chronic Conditions"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_chroncond_004"
+    },
+    "question": {
+        "en": "Is Type I Diabetes resolved or ongoing?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Resolved"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Ongoing"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

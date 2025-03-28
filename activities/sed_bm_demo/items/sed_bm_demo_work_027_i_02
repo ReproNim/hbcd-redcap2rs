@@ -1,0 +1,66 @@
+{
+    "id": "sed_bm_demo_work_027_i_02",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "sed_bm_demo_work_027_m01"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='777,999'"
+        }
+    ],
+    "preamble": {
+        "en": "Did this job involve:"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_work_027_i_02"
+    },
+    "question": {
+        "en": "Lifting heavy loads (15lbs, 3 sacks of flour)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Every day"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

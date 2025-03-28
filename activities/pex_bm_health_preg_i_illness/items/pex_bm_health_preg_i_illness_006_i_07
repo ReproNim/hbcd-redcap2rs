@@ -1,0 +1,35 @@
+{
+    "id": "pex_bm_health_preg_i_illness_006_i_07",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN @CALCTEXT(if([pex_bm_health_preg_i_illness_006_i_03] != \"\", [pex_bm_health_preg_i_illness_006_i_03], [pex_bm_health_preg_i_illness_006_i_05]))"
+        }
+    ],
+    "description": {
+        "en": "fourth illness or symptom"
+    },
+    "preamble": {
+        "en": "Illnesses During Pregnancy"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_illness_006_i_07"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
