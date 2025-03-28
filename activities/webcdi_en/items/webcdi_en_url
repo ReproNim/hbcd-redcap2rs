@@ -1,0 +1,30 @@
+{
+    "id": "webcdi_en_url",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN\n@CALCTEXT(\n  concat(\n    'https://webcdi.stanford.edu/interface/HBCD/',\n    if(\n        [webcdi_en_age] < 16 AND [project-id] = 44,\n        'WG%20EN%20-%20Sandbox',\n        if(\n            [webcdi_en_age] < 16 AND [project-id] = 57,\n            'WG%20EN',\n                if(\n                [webcdi_en_age] >= 16 AND [project-id] = 44,\n                'WS%20EN%20-%20Sandbox',\n                    if(\n                    [webcdi_en_age] >= 16 AND [project-id] = 57,\n                    'WS%20EN',\n                    'ERROR'\n                )\n            )\n        )\n    ),\n    '/new_parent/?',\n    'source_id=', [screening_arm_1][record_id],  '&',\n    'event_id=',  [event-name], '&',\n    'age=',       [webcdi_en_age], '&',\n    'sex=',       [screening_arm_1][setup_sex],  '&',\n    'offset=',    [screening_arm_1][setup_offset]\n  )\n)"
+        }
+    ],
+    "description": {
+        "en": "URL to redirect to WebCDI (English) for given participant/event"
+    },
+    "preamble": {
+        "en": "WebCDI Instructions"
+    },
+    "prefLabel": {
+        "en": "webcdi_en_url"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

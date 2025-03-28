@@ -1,0 +1,29 @@
+{
+    "id": "ncl_ch_mlds_011_i_06",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_mdy"
+        }
+    ],
+    "preamble": {
+        "en": "NINTH non-parental childcare arrangement"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_mlds_011_i_06"
+    },
+    "question": {
+        "en": "When did you begin using this non-parental childcare arrangement?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

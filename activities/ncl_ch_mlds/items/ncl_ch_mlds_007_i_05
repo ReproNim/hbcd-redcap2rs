@@ -1,0 +1,30 @@
+{
+    "id": "ncl_ch_mlds_007_i_05",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
+    "description": {
+        "en": "Sum of time percentage for alert, fifth arrangement"
+    },
+    "preamble": {
+        "en": "FIFTH non-parental childcare arrangement"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_mlds_007_i_05"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
