@@ -1,13 +1,6 @@
 {
     "id": "sed_bm_demo_work_024_i_02",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@NONEOFTHEABOVE='777,999'"
-        }
-    ],
     "prefLabel": {
         "en": "sed_bm_demo_work_024_i_02"
     },

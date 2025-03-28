@@ -1,13 +1,6 @@
 {
     "id": "sed_bm_demo_herit_002_i_03",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@NONEOFTHEABOVE='777,999'"
-        }
-    ],
     "preamble": {
         "en": "Birthplace and Heritage"
     },
