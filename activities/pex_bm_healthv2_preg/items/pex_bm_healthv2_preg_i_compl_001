@@ -1,6 +1,13 @@
 {
     "id": "pex_bm_healthv2_preg_i_compl_001",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='777,999,12'"
+        }
+    ],
     "preamble": {
         "en": "Pregnancy Complications"
     },

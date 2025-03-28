@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@NONEOFTHEABOVE=7"
+            "value": "@NONEOFTHEABOVE=5"
         }
     ],
     "preamble": {

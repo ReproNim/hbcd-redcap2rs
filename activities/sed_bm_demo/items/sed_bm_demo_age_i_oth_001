@@ -1,6 +1,13 @@
 {
     "id": "sed_bm_demo_age_i_oth_001",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='777,999'"
+        }
+    ],
     "preamble": {
         "en": "Demographics of baby's other biological parent"
     },

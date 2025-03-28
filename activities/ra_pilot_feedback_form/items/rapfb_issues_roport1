@@ -1,13 +1,6 @@
 {
     "id": "rapfb_issues_roport1",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@HIDECHOICE='5'"
-        }
-    ],
     "prefLabel": {
         "en": "rapfb_issues_roport1"
     },

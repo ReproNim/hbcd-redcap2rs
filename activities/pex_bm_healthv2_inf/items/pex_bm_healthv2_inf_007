@@ -1,6 +1,13 @@
 {
     "id": "pex_bm_healthv2_inf_007",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='6,777,999'"
+        }
+    ],
     "prefLabel": {
         "en": "pex_bm_healthv2_inf_007"
     },

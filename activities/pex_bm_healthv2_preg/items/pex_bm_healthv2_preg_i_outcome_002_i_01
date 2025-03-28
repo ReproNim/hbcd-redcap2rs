@@ -1,6 +1,13 @@
 {
     "id": "pex_bm_healthv2_preg_i_outcome_002_i_01",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='777,999'"
+        }
+    ],
     "preamble": {
         "en": "Delivery and Birth Outcomes"
     },
