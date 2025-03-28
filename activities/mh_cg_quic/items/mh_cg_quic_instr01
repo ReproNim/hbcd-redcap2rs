@@ -1,0 +1,20 @@
+{
+    "id": "mh_cg_quic_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_quic_instr01"
+    },
+    "question": {
+        "en": "This set of questions asks about your child's experiences. When we say parents, we mean you and whoever else in your child's life fills that role for your child (for example, biological parents, stepparents, adoptive parents, romantic or domestic partners, grandparents, foster parents). This could be one person, or this could be multiple people.\n\nWe are going to ask about your child's experiences from birth to now. Please answer these questions based on your child's typical or average experiences."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

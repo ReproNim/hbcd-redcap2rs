@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@NONEOFTHEABOVE='777,999,12'"
+            "value": "@NONEOFTHEABOVE='777,999,12'\n@IF([event-name] != 'v05_arm_1', @HIDECHOICE='13', '')"
         }
     ],
     "preamble": {
@@ -78,6 +78,12 @@
                     "en": "LIHEAP/heat/AC assistance"
                 },
                 "value": 10
+            },
+            {
+                "name": {
+                    "en": "Home visitation"
+                },
+                "value": 13
             },
             {
                 "name": {

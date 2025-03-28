@@ -1,0 +1,23 @@
+{
+    "id": "pex_bm_healthv2_preg_i_exp_i_pnv_012_i_02_00",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Pregnancy Exposures"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_exp_i_pnv_012_i_02_00"
+    },
+    "question": {
+        "en": "What date did you stop taking aspirin? {pex_bm_healthv2_preg_i_exp_i_pnv_012_i_02_i_01}\n{pex_bm_healthv2_preg_i_exp_i_pnv_012_i_02_i_01_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

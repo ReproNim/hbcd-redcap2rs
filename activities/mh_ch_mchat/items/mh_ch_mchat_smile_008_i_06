@@ -1,0 +1,39 @@
+{
+    "id": "mh_ch_mchat_smile_008_i_06",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mh_ch_mchat_smile_m02"
+        },
+        {
+            "column": "Matrix Ranking?",
+            "source": "redcap",
+            "value": "y"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_ch_mchat_smile_008_i_06"
+    },
+    "question": {
+        "en": "Smile at a favorite toy or activity?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Most often"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

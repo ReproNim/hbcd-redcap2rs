@@ -147,79 +147,79 @@
             },
             {
                 "isAbout": "items/sed_cg_nsc_008",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_008"
             },
             {
                 "isAbout": "items/sed_cg_nsc_008_i_01",
-                "isVis": "sed_cg_nsc_008 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_008_i_01"
             },
             {
                 "isAbout": "items/sed_cg_nsc_009",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_009"
             },
             {
                 "isAbout": "items/sed_cg_nsc_010",
-                "isVis": "sed_cg_nsc_009 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_010"
             },
             {
                 "isAbout": "items/sed_cg_nsc_010_i_01",
-                "isVis": "sed_cg_nsc_010 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_010_i_01"
             },
             {
                 "isAbout": "items/sed_cg_nsc_011",
-                "isVis": "sed_cg_nsc_009 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_011"
             },
             {
                 "isAbout": "items/sed_cg_nsc_011_i_01",
-                "isVis": "sed_cg_nsc_011 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_011_i_01"
             },
             {
                 "isAbout": "items/sed_cg_nsc_012",
-                "isVis": "sed_cg_nsc_009 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_012"
             },
             {
                 "isAbout": "items/sed_cg_nsc_012_i_01",
-                "isVis": "sed_cg_nsc_012 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_012_i_01"
             },
             {
                 "isAbout": "items/sed_cg_nsc_013",
-                "isVis": "sed_cg_nsc_009 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_013"
             },
             {
                 "isAbout": "items/sed_cg_nsc_013_i_01",
-                "isVis": "sed_cg_nsc_013 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_013_i_01"
             },
             {
                 "isAbout": "items/sed_cg_nsc_014",
-                "isVis": "sed_cg_nsc_009 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_014"
             },
             {
                 "isAbout": "items/sed_cg_nsc_014_i_01",
-                "isVis": "sed_cg_nsc_014 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_cg_nsc_014_i_01"
             },
@@ -250,6 +250,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid232",
+    "version": "revid233",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

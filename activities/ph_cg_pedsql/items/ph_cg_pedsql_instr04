@@ -1,0 +1,41 @@
+{
+    "id": "ph_cg_pedsql_instr04",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE='0'"
+        }
+    ],
+    "prefLabel": {
+        "en": "ph_cg_pedsql_instr04"
+    },
+    "question": {
+        "en": "Please complete this section if your child has frequent interactions with other children"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "My child does not interact with other children regularly"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -52,7 +52,7 @@
             },
             {
                 "isAbout": "items/mh_cg_fad_001_i_01",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "mh_cg_fad_001_i_01"
             },
@@ -64,7 +64,7 @@
             },
             {
                 "isAbout": "items/mh_cg_fad_001_i_03",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "mh_cg_fad_001_i_03"
             },
@@ -76,7 +76,7 @@
             },
             {
                 "isAbout": "items/mh_cg_fad_001_i_05",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "mh_cg_fad_001_i_05"
             },
@@ -88,7 +88,7 @@
             },
             {
                 "isAbout": "items/mh_cg_fad_001_i_07",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "mh_cg_fad_001_i_07"
             },
@@ -100,7 +100,7 @@
             },
             {
                 "isAbout": "items/mh_cg_fad_001_i_09",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "mh_cg_fad_001_i_09"
             },
@@ -112,7 +112,7 @@
             },
             {
                 "isAbout": "items/mh_cg_fad_001_i_11",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "mh_cg_fad_001_i_11"
             },
@@ -131,6 +131,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid232",
+    "version": "revid233",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

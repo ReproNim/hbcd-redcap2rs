@@ -89,6 +89,14 @@
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_01",
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02",
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_03",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_00",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_01",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_01_dk",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_00",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01_dk",
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011",
             "items/pex_bm_health_preg_i_healthhx_complete"
         ],
@@ -484,6 +492,54 @@
                 "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_03"
             },
             {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_00",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012 == '1'",
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_01",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_01_dk == ''",
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_01 == ''",
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02 == '0'",
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01_dk == ''",
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01 == ''",
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01_dk"
+            },
+            {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011",
                 "isVis": true,
                 "valueRequired": true,
@@ -498,6 +554,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid232",
+    "version": "revid233",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

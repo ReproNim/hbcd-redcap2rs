@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/pex_bm_str_i_ptsd",
+            "items/pex_bm_str_i_ptsd_lang",
             "items/pex_bm_str_i_ptsd_dtt",
             "items/pex_bm_str_i_ptsd_timestamp_start",
             "items/pex_bm_str_i_ptsd_location",
@@ -26,10 +26,10 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/pex_bm_str_i_ptsd",
+                "isAbout": "items/pex_bm_str_i_ptsd_lang",
                 "isVis": false,
                 "valueRequired": true,
-                "variableName": "pex_bm_str_i_ptsd"
+                "variableName": "pex_bm_str_i_ptsd_lang"
             },
             {
                 "isAbout": "items/pex_bm_str_i_ptsd_dtt",
@@ -124,6 +124,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid232",
+    "version": "revid233",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

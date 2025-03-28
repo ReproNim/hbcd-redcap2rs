@@ -1,0 +1,20 @@
+{
+    "id": "mh_ch_mchat_point_009_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_ch_mchat_point_009_instr01"
+    },
+    "question": {
+        "en": "When you point at something, which one does your child do most often?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

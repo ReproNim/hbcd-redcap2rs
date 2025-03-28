@@ -1,0 +1,23 @@
+{
+    "id": "mh_cg_mapstl_i_easi_instr01",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Your Child's Behavior & Feelings as They Grow"
+    },
+    "prefLabel": {
+        "en": "mh_cg_mapstl_i_easi_instr01"
+    },
+    "question": {
+        "en": "We are interested in learning about your child's behavior and feelings when angry, upset, or frustrated. Young children often show these feelings as temper tantrums (also called outbursts, fallouts, or meltdowns). Please answer the following questions about the past month."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

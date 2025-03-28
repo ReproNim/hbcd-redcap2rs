@@ -1,0 +1,20 @@
+{
+    "id": "mh_ch_mchat_reach_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_ch_mchat_reach_instr01"
+    },
+    "question": {
+        "en": "If there is something your child wants that is out of reach, such as a snack or toy, do they ..."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

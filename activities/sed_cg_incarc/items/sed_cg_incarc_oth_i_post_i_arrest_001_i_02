@@ -1,0 +1,38 @@
+{
+    "id": "sed_cg_incarc_oth_i_post_i_arrest_001_i_02",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "100"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_incarc_oth_i_post_i_arrest_001_i_02"
+    },
+    "question": {
+        "en": "How many times has the child's adoptive mother been arrested since this child was born?"
+    },
+    "responseOptions": {
+        "maxValue": 100,
+        "minValue": 1,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

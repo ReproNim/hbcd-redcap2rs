@@ -1,0 +1,20 @@
+{
+    "id": "mh_ch_mchat_movement_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_ch_mchat_movement_instr01"
+    },
+    "question": {
+        "en": "When you swing or bounce them, how do they react? Does your child..."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

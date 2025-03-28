@@ -1,0 +1,71 @@
+{
+    "id": "sed_cg_incarc_oth_i_post_i_arrest_013_i_04",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='999,777'"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_incarc_oth_i_post_i_arrest_013_i_04"
+    },
+    "question": {
+        "en": "Please indicate the outcome(s) of the arrest(s) (Please check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Immediate release (or within a few hours)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Overnight stay in jail or longer"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Community supervision (probation)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Referral to treatment program"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

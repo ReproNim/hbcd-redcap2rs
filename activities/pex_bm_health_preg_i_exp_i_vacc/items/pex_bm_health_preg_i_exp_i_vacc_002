@@ -95,6 +95,12 @@
                     "en": "COVID-19"
                 },
                 "value": 13
+            },
+            {
+                "name": {
+                    "en": "RSV vaccine"
+                },
+                "value": 14
             }
         ],
         "multipleChoice": true,
