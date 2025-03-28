@@ -414,6 +414,13 @@ class ReproSchemaConverter:
             if current_version > 0 and redcap_version <= current_version:
                 logger.info(f"Skipping {filename}, already processed (version {redcap_version} ≤ {current_version})")
                 return False
+            
+            # Update the YAML file
+            with open(self.yaml_file_path, 'r') as f:
+                yaml_content = yaml.safe_load(f)
+            yaml_content['redcap_version'] = f"revid{redcap_version}"
+            with open(self.yaml_file_path, 'w') as f:
+                yaml.dump(yaml_content, f, default_flow_style=False)
 
             # Run the redcap2reproschema command
             cmd = [
@@ -496,13 +503,6 @@ class ReproSchemaConverter:
             else:
                 # There are substantial changes, update YAML and commit everything
                 try:
-                    # Update the YAML file
-                    with open(self.yaml_file_path, 'r') as f:
-                        yaml_content = yaml.safe_load(f)
-                    yaml_content['redcap_version'] = f"revid{redcap_version}"
-                    with open(self.yaml_file_path, 'w') as f:
-                        yaml.dump(yaml_content, f, default_flow_style=False)
-
                     # Commit and tag all changes
                     date_time_str = file_info['datetime']
                     commit_message = f"converted {self.protocol_name} redcap data dictionary {date_time_str} to reproschema"
