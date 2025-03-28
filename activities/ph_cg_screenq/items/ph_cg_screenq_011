@@ -1,0 +1,54 @@
+{
+    "id": "ph_cg_screenq_011",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Please respond to each question or statement by marking one box per row."
+    },
+    "prefLabel": {
+        "en": "ph_cg_screenq_011"
+    },
+    "question": {
+        "en": "Does the child choose TV shows/videos or download apps by themselves?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

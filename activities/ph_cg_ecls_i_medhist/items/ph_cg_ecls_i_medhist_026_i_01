@@ -1,0 +1,30 @@
+{
+    "id": "ph_cg_ecls_i_medhist_026_i_01",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Since the last time we discussed your child's medical history"
+    },
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_026_i_01"
+    },
+    "question": {
+        "en": "Which cancer?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "BIOPORTAL:ICD10"
+                },
+                "value": "BIOPORTAL:ICD10"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

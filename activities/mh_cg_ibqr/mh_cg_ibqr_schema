@@ -65,25 +65,25 @@
             {
                 "isAbout": "items/mh_cg_ibqr_lang",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "mh_cg_ibqr_lang"
             },
             {
                 "isAbout": "items/mh_cg_ibqr_dtt",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "mh_cg_ibqr_dtt"
             },
             {
                 "isAbout": "items/mh_cg_ibqr_timestamp_start",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "mh_cg_ibqr_timestamp_start"
             },
             {
                 "isAbout": "items/mh_cg_ibqr_location",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "mh_cg_ibqr_location"
             },
             {
@@ -383,6 +383,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid115",
+    "version": "revid117",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@NONEOFTHEABOVE = '7,777,999'"
+            "value": "@NONEOFTHEABOVE='7,777,999'"
         }
     ],
     "preamble": {
@@ -21,7 +21,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Private health insurance from my job or the job of my husband or partner"
+                    "en": "Private health insurance from my job or the job of my spouse or partner"
                 },
                 "value": 1
             },

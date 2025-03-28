@@ -1,0 +1,48 @@
+{
+    "id": "sed_cg_employ_011_i_02",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The following questions are about substances that you or any member of your child's household may be exposed to during your/their current employment."
+    },
+    "prefLabel": {
+        "en": "sed_cg_employ_011_i_02"
+    },
+    "question": {
+        "en": "Are your/their work clothes laundered separately from the family wash?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

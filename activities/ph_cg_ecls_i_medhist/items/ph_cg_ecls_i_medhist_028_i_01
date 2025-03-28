@@ -1,0 +1,73 @@
+{
+    "id": "ph_cg_ecls_i_medhist_028_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "ph_cg_ecls_i_medhist_m02"
+        }
+    ],
+    "preamble": {
+        "en": "Since the last time we discussed your child's medical history"
+    },
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_028_i_01"
+    },
+    "question": {
+        "en": "Headaches"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Daily"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Weekly"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Monthly"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Less than monthly"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

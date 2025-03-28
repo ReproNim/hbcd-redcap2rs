@@ -8,9 +8,6 @@
             "value": "@NONEOFTHEABOVE='777,999'"
         }
     ],
-    "preamble": {
-        "en": "Work Environment"
-    },
     "prefLabel": {
         "en": "sed_bm_demo_instr07_pre"
     },

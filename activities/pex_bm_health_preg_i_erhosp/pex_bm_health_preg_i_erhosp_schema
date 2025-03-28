@@ -202,7 +202,7 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_erhosp_lang",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_erhosp_lang"
             },
             {
@@ -1342,6 +1342,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid115",
+    "version": "revid117",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

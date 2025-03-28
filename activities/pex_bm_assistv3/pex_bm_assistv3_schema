@@ -74,25 +74,25 @@
             {
                 "isAbout": "items/pex_bm_assistv3_lang",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_assistv3_lang"
             },
             {
                 "isAbout": "items/pex_bm_assistv3_dtt",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_assistv3_dtt"
             },
             {
                 "isAbout": "items/pex_bm_assistv3_timestamp_start",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_assistv3_timestamp_start"
             },
             {
                 "isAbout": "items/pex_bm_assistv3_location",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pex_bm_assistv3_location"
             },
             {
@@ -446,6 +446,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid115",
+    "version": "revid117",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

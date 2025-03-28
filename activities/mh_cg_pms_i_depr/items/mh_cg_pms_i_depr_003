@@ -15,7 +15,7 @@
         "en": "mh_cg_pms_i_depr_003"
     },
     "question": {
-        "en": "My child wasn't interested in doing things he/she usually likes."
+        "en": "My child wasn't interested in doing things my child usually likes."
     },
     "responseOptions": {
         "choices": [
@@ -48,12 +48,6 @@
                     "en": "Always"
                 },
                 "value": 5
-            },
-            {
-                "name": {
-                    "en": "Don't know"
-                },
-                "value": 999
             },
             {
                 "name": {

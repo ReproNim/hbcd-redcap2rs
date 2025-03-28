@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/ph_cg_phx_lang",
+            "items/ph_cg_phx_i_bfh_lang",
             "items/ph_cg_phx_i_bfh_dtt",
             "items/ph_cg_phx_i_bfh_timestamp_start",
             "items/ph_cg_phx_i_bfh_location",
@@ -33,27 +33,27 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/ph_cg_phx_lang",
+                "isAbout": "items/ph_cg_phx_i_bfh_lang",
                 "isVis": false,
-                "valueRequired": false,
-                "variableName": "ph_cg_phx_lang"
+                "valueRequired": true,
+                "variableName": "ph_cg_phx_i_bfh_lang"
             },
             {
                 "isAbout": "items/ph_cg_phx_i_bfh_dtt",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "ph_cg_phx_i_bfh_dtt"
             },
             {
                 "isAbout": "items/ph_cg_phx_i_bfh_timestamp_start",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "ph_cg_phx_i_bfh_timestamp_start"
             },
             {
                 "isAbout": "items/ph_cg_phx_i_bfh_location",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "ph_cg_phx_i_bfh_location"
             },
             {
@@ -173,6 +173,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid115",
+    "version": "revid117",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

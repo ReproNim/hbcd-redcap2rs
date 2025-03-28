@@ -15,7 +15,7 @@
         "en": "mh_cg_mapstl_i_tod_016"
     },
     "question": {
-        "en": "Have a temper tantrum when you were out in public with him/her"
+        "en": "Have a temper tantrum when you were out in public"
     },
     "responseOptions": {
         "choices": [
@@ -54,12 +54,6 @@
                     "en": "Many times each day"
                 },
                 "value": 6
-            },
-            {
-                "name": {
-                    "en": "Don't know"
-                },
-                "value": 999
             },
             {
                 "name": {
