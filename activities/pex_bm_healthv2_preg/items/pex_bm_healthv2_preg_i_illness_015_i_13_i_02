@@ -1,13 +1,6 @@
 {
     "id": "pex_bm_healthv2_preg_i_illness_015_i_13_i_02",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Custom Alignment",
-            "source": "redcap",
-            "value": "RH"
-        }
-    ],
     "preamble": {
         "en": "Other Pregnancy Exposures"
     },
@@ -15,21 +8,69 @@
         "en": "pex_bm_healthv2_preg_i_illness_015_i_13_i_02"
     },
     "question": {
-        "en": "Unit of duration fever 1"
+        "en": "How many days did the fever last?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Hours"
+                    "en": "1"
                 },
-                "value": 0
+                "value": 1
             },
             {
                 "name": {
-                    "en": "Days"
+                    "en": "2"
                 },
-                "value": 1
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 10
             }
         ],
         "valueType": [
@@ -37,7 +78,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "select"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

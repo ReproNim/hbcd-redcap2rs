@@ -8,9 +8,6 @@
             "value": "date_mdy"
         }
     ],
-    "preamble": {
-        "en": "Pregnancy Exposures"
-    },
     "prefLabel": {
         "en": "pex_bm_healthv2_preg_i_exp_i_pnv_012_i_01"
     },

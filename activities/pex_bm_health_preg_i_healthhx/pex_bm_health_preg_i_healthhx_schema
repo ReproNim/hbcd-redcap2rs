@@ -15,6 +15,10 @@
             "variableName": "pex_bm_health_preg_i_healthhx_011"
         },
         {
+            "jsExpression": "sum((if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '1',1,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '2',2,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '3',3,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '4',4,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '5',5,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '6',6,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '7',7,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '8',8,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '9',9,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '10',10,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '11',11,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '12',12,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '13',13,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '14',14,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001 == '15',15,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '1',1,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '2',2,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '3',3,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '4',4,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '5',5,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '6',6,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '7',7,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '8',8,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '9',9,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '10',10,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '11',11,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '12',12,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '13',13,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '14',14,'')),(if(pex_bm_health_preg_i_healthhx_i_preghx_001_post == '15',15,'')))",
+            "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_calc"
+        },
+        {
             "jsExpression": "if(pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_02 == 1,pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_01,if(pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_02 == 2,pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_01 * 4,''))",
             "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_004"
         },
@@ -54,6 +58,7 @@
             "items/pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk_post",
             "items/pex_bm_health_preg_i_healthhx_i_preghx_002_i_00",
             "items/pex_bm_health_preg_i_healthhx_i_preghx_002",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_001_alert1",
             "items/pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk",
             "items/pex_bm_health_preg_i_healthhx_i_preghx_003_i_pre",
             "items/pex_bm_health_preg_i_healthhx_i_preghx_003_i_post",
@@ -259,20 +264,32 @@
                 "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk_post"
             },
             {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_calc"
+            },
+            {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_002_i_00",
-                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 >1",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 > 1 OR pex_bm_health_preg_i_healthhx_i_preghx_001_post > 1",
                 "valueRequired": false,
                 "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_002_i_00"
             },
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_002",
-                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 >1 AND pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk == ''",
+                "isVis": "(pex_bm_health_preg_i_healthhx_i_preghx_001 >1 OR pex_bm_health_preg_i_healthhx_i_preghx_001_post > 1)AND pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk == ''",
                 "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_002"
             },
             {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001_alert1",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_alert1"
+            },
+            {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk",
-                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 >1 AND pex_bm_health_preg_i_healthhx_i_preghx_002 == ''",
+                "isVis": "(pex_bm_health_preg_i_healthhx_i_preghx_001 >1 OR pex_bm_health_preg_i_healthhx_i_preghx_001_post >1)AND pex_bm_health_preg_i_healthhx_i_preghx_002 == ''",
                 "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk"
             },
@@ -561,6 +578,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid455",
+    "version": "revid464",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,9 +1,6 @@
 {
     "id": "pex_bm_healthv2_preg_i_exp_i_pnv_012_i_02_i_01_dk",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "Pregnancy Exposures"
-    },
     "prefLabel": {
         "en": "pex_bm_healthv2_preg_i_exp_i_pnv_012_i_02_i_01_dk"
     },

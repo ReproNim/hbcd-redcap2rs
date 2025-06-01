@@ -1,13 +1,6 @@
 {
     "id": "pex_bm_healthv2_preg_i_illness_023_i_09_i_00",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Custom Alignment",
-            "source": "redcap",
-            "value": "RH"
-        }
-    ],
     "preamble": {
         "en": "Other Pregnancy Exposures"
     },
@@ -15,7 +8,7 @@
         "en": "pex_bm_healthv2_preg_i_illness_023_i_09_i_00"
     },
     "question": {
-        "en": "Start date of [pex_bm_healthv2_preg_i_illness_023_i_07] {pex_bm_healthv2_preg_i_illness_023_i_09} {pex_bm_healthv2_preg_i_illness_023_i_09_i_dk} Stop date of [pex_bm_healthv2_preg_i_illness_023_i_07] {pex_bm_healthv2_preg_i_illness_023_i_10} {pex_bm_healthv2_preg_i_illness_023_i_10_i_dk}"
+        "en": "Start date of [pex_bm_healthv2_preg_i_illness_023_i_07] {pex_bm_healthv2_preg_i_illness_023_i_09} {pex_bm_healthv2_preg_i_illness_023_i_09_i_dk} \nStop date of [pex_bm_healthv2_preg_i_illness_023_i_07] {pex_bm_healthv2_preg_i_illness_023_i_10} {pex_bm_healthv2_preg_i_illness_023_i_10_i_dk}"
     },
     "responseOptions": {
         "valueType": [

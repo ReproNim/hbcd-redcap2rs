@@ -1,0 +1,20 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_preghx_001_calc",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "# pregnancies calc"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_preghx_001_calc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

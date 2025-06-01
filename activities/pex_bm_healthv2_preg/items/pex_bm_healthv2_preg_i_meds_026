@@ -1,13 +1,6 @@
 {
     "id": "pex_bm_healthv2_preg_i_meds_026",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Custom Alignment",
-            "source": "redcap",
-            "value": "RH"
-        }
-    ],
     "preamble": {
         "en": "Medications- Pregnancy"
     },

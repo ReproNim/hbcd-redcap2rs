@@ -1,0 +1,32 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_preghx_001_alert1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_preghx_001_alert1"
+    },
+    "question": {
+        "en": "AlertNumber of live births is higher than number of pregnancies reported. Please correct."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "pex_bm_health_preg_i_meds_alert1",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_meds_alert1"
+    },
+    "question": {
+        "en": "PLEASE HAND IPAD BACK TO THE RESEARCH ASSOCIATE"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

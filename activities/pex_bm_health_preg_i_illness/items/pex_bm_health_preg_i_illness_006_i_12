@@ -5,17 +5,7 @@
         {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": "number"
-        },
-        {
-            "column": "Text Validation Min",
-            "source": "redcap",
-            "value": "98.6"
-        },
-        {
-            "column": "Text Validation Max",
-            "source": "redcap",
-            "value": "108"
+            "value": "autocomplete"
         }
     ],
     "preamble": {
@@ -28,14 +18,584 @@
         "en": "What was the highest temperature of the fever?"
     },
     "responseOptions": {
-        "maxValue": 108,
-        "minValue": 98.6,
+        "choices": [
+            {
+                "name": {
+                    "en": "98.6"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "98.7"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "98.8"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "98.9"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "99"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "99.1"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "99.2"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "99.3"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "99.4"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "99.5"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "99.6"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "99.7"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "99.8"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "99.9"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "100"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "100.1"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "100.2"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "100.3"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "100.4"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "100.5"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "100.6"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "100.7"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "100.8"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "100.9"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "101"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "101.1"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "101.2"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "101.3"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "101.4"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "101.5"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "101.6"
+                },
+                "value": 31
+            },
+            {
+                "name": {
+                    "en": "101.7"
+                },
+                "value": 32
+            },
+            {
+                "name": {
+                    "en": "101.8"
+                },
+                "value": 33
+            },
+            {
+                "name": {
+                    "en": "101.9"
+                },
+                "value": 34
+            },
+            {
+                "name": {
+                    "en": "102"
+                },
+                "value": 35
+            },
+            {
+                "name": {
+                    "en": "102.1"
+                },
+                "value": 36
+            },
+            {
+                "name": {
+                    "en": "102.2"
+                },
+                "value": 37
+            },
+            {
+                "name": {
+                    "en": "102.3"
+                },
+                "value": 38
+            },
+            {
+                "name": {
+                    "en": "102.4"
+                },
+                "value": 39
+            },
+            {
+                "name": {
+                    "en": "102.5"
+                },
+                "value": 40
+            },
+            {
+                "name": {
+                    "en": "102.6"
+                },
+                "value": 41
+            },
+            {
+                "name": {
+                    "en": "102.7"
+                },
+                "value": 42
+            },
+            {
+                "name": {
+                    "en": "102.8"
+                },
+                "value": 43
+            },
+            {
+                "name": {
+                    "en": "102.9"
+                },
+                "value": 44
+            },
+            {
+                "name": {
+                    "en": "103"
+                },
+                "value": 45
+            },
+            {
+                "name": {
+                    "en": "103.1"
+                },
+                "value": 46
+            },
+            {
+                "name": {
+                    "en": "103.2"
+                },
+                "value": 47
+            },
+            {
+                "name": {
+                    "en": "103.3"
+                },
+                "value": 48
+            },
+            {
+                "name": {
+                    "en": "103.4"
+                },
+                "value": 49
+            },
+            {
+                "name": {
+                    "en": "103.5"
+                },
+                "value": 50
+            },
+            {
+                "name": {
+                    "en": "103.6"
+                },
+                "value": 51
+            },
+            {
+                "name": {
+                    "en": "103.7"
+                },
+                "value": 52
+            },
+            {
+                "name": {
+                    "en": "103.8"
+                },
+                "value": 53
+            },
+            {
+                "name": {
+                    "en": "103.9"
+                },
+                "value": 54
+            },
+            {
+                "name": {
+                    "en": "104"
+                },
+                "value": 55
+            },
+            {
+                "name": {
+                    "en": "104.1"
+                },
+                "value": 56
+            },
+            {
+                "name": {
+                    "en": "104.2"
+                },
+                "value": 57
+            },
+            {
+                "name": {
+                    "en": "104.3"
+                },
+                "value": 58
+            },
+            {
+                "name": {
+                    "en": "104.4"
+                },
+                "value": 59
+            },
+            {
+                "name": {
+                    "en": "104.5"
+                },
+                "value": 60
+            },
+            {
+                "name": {
+                    "en": "104.6"
+                },
+                "value": 61
+            },
+            {
+                "name": {
+                    "en": "104.7"
+                },
+                "value": 62
+            },
+            {
+                "name": {
+                    "en": "104.8"
+                },
+                "value": 63
+            },
+            {
+                "name": {
+                    "en": "104.9"
+                },
+                "value": 64
+            },
+            {
+                "name": {
+                    "en": "105"
+                },
+                "value": 65
+            },
+            {
+                "name": {
+                    "en": "105.1"
+                },
+                "value": 66
+            },
+            {
+                "name": {
+                    "en": "105.2"
+                },
+                "value": 67
+            },
+            {
+                "name": {
+                    "en": "105.3"
+                },
+                "value": 68
+            },
+            {
+                "name": {
+                    "en": "105.4"
+                },
+                "value": 69
+            },
+            {
+                "name": {
+                    "en": "105.5"
+                },
+                "value": 70
+            },
+            {
+                "name": {
+                    "en": "105.6"
+                },
+                "value": 71
+            },
+            {
+                "name": {
+                    "en": "105.7"
+                },
+                "value": 72
+            },
+            {
+                "name": {
+                    "en": "105.8"
+                },
+                "value": 73
+            },
+            {
+                "name": {
+                    "en": "105.9"
+                },
+                "value": 74
+            },
+            {
+                "name": {
+                    "en": "106"
+                },
+                "value": 75
+            },
+            {
+                "name": {
+                    "en": "106.1"
+                },
+                "value": 76
+            },
+            {
+                "name": {
+                    "en": "106.2"
+                },
+                "value": 77
+            },
+            {
+                "name": {
+                    "en": "106.3"
+                },
+                "value": 78
+            },
+            {
+                "name": {
+                    "en": "106.4"
+                },
+                "value": 79
+            },
+            {
+                "name": {
+                    "en": "106.5"
+                },
+                "value": 80
+            },
+            {
+                "name": {
+                    "en": "106.6"
+                },
+                "value": 81
+            },
+            {
+                "name": {
+                    "en": "106.7"
+                },
+                "value": 82
+            },
+            {
+                "name": {
+                    "en": "106.8"
+                },
+                "value": 83
+            },
+            {
+                "name": {
+                    "en": "106.9"
+                },
+                "value": 84
+            },
+            {
+                "name": {
+                    "en": "107"
+                },
+                "value": 85
+            },
+            {
+                "name": {
+                    "en": "107.1"
+                },
+                "value": 86
+            },
+            {
+                "name": {
+                    "en": "107.2"
+                },
+                "value": 87
+            },
+            {
+                "name": {
+                    "en": "107.3"
+                },
+                "value": 88
+            },
+            {
+                "name": {
+                    "en": "107.4"
+                },
+                "value": 89
+            },
+            {
+                "name": {
+                    "en": "107.5"
+                },
+                "value": 90
+            },
+            {
+                "name": {
+                    "en": "107.6"
+                },
+                "value": 91
+            },
+            {
+                "name": {
+                    "en": "107.7"
+                },
+                "value": 92
+            },
+            {
+                "name": {
+                    "en": "107.8"
+                },
+                "value": 93
+            },
+            {
+                "name": {
+                    "en": "107.9"
+                },
+                "value": 94
+            },
+            {
+                "name": {
+                    "en": "108"
+                },
+                "value": 95
+            }
+        ],
         "valueType": [
-            "xsd:decimal"
+            "xsd:integer"
         ]
     },
     "ui": {
-        "inputType": "float"
+        "inputType": "select"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

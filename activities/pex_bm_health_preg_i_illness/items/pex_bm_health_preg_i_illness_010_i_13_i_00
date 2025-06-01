@@ -15,7 +15,7 @@
         "en": "pex_bm_health_preg_i_illness_010_i_13_i_00"
     },
     "question": {
-        "en": "How many hours or days did the fever last? {pex_bm_health_preg_i_illness_010_i_13_i_01} {pex_bm_health_preg_i_illness_010_i_13_i_02} {pex_bm_health_preg_i_illness_010_i_13_i_dk}"
+        "en": "How many hours or days did the fever last? \nHours: {pex_bm_health_preg_i_illness_010_i_13_i_01}\nDays: {pex_bm_health_preg_i_illness_010_i_13_i_02} \n{pex_bm_health_preg_i_illness_010_i_13_i_dk}"
     },
     "responseOptions": {
         "valueType": [

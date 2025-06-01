@@ -1,13 +1,6 @@
 {
     "id": "pex_bm_healthv2_inf_001_i_02",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Text Validation Type OR Show Slider Number",
-            "source": "redcap",
-            "value": "number"
-        }
-    ],
     "prefLabel": {
         "en": "pex_bm_healthv2_inf_001_i_02"
     },
@@ -15,12 +8,140 @@
         "en": "How much did your baby weigh at birth? (enter pounds)"
     },
     "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "13"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "14"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "15"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "16"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "17"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "18"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "19"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "20"
+                },
+                "value": 20
+            }
+        ],
         "valueType": [
-            "xsd:decimal"
+            "xsd:integer"
         ]
     },
     "ui": {
-        "inputType": "float"
+        "inputType": "select"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

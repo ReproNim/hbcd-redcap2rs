@@ -1,15 +1,8 @@
 {
     "id": "pex_bm_healthv2_preg_i_meds_062_i_05",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Custom Alignment",
-            "source": "redcap",
-            "value": "RH"
-        }
-    ],
     "preamble": {
-        "en": "Medications- Pregnancy"
+        "en": "PLEASE HAND THE IPAD BACK TO THE RESEARCH ASSOCIATE"
     },
     "prefLabel": {
         "en": "pex_bm_healthv2_preg_i_meds_062_i_05"

@@ -8,9 +8,6 @@
             "value": "@NONEOFTHEABOVE='4,999,777'"
         }
     ],
-    "preamble": {
-        "en": "Pregnancy Exposures"
-    },
     "prefLabel": {
         "en": "pex_bm_healthv2_preg_i_exp_i_pnv_010"
     },

@@ -2,13 +2,13 @@
     "id": "pex_bm_healthv2_preg_i_meds_063_i_03_i_00",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Medications- Pregnancy"
+        "en": "PLEASE HAND THE IPAD BACK TO THE RESEARCH ASSOCIATE"
     },
     "prefLabel": {
         "en": "pex_bm_healthv2_preg_i_meds_063_i_03_i_00"
     },
     "question": {
-        "en": "How often did you take [pex_bm_healthv2_preg_i_meds_063_i_01]? Please specify in number of times per hour, day, month, or year.{pex_bm_healthv2_preg_i_meds_063_i_03} times per {pex_bm_healthv2_preg_i_meds_063_i_03_i_01} {pex_bm_healthv2_preg_i_meds_063_i_03_dk}"
+        "en": "How often did you take [pex_bm_healthv2_preg_i_meds_063_i_01]?Please specify innumber of times per hour, day, month, or year.Times per hour:{pex_bm_healthv2_preg_i_meds_063_i_03_i_01}Times per day:{pex_bm_healthv2_preg_i_meds_063_i_03_i_02}Times per month:{pex_bm_healthv2_preg_i_meds_063_i_03_i_03}Times per year:{pex_bm_healthv2_preg_i_meds_063_i_03_i_04}{pex_bm_healthv2_preg_i_meds_063_i_03_dk}"
     },
     "responseOptions": {
         "valueType": [

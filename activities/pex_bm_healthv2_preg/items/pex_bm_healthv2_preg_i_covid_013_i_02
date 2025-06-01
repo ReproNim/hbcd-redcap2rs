@@ -1,13 +1,6 @@
 {
     "id": "pex_bm_healthv2_preg_i_covid_013_i_02",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Custom Alignment",
-            "source": "redcap",
-            "value": "RH"
-        }
-    ],
     "preamble": {
         "en": "Illnesses During Pregnancy"
     },
