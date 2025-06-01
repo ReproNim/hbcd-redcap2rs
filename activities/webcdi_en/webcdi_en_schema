@@ -7,7 +7,7 @@
             "variableName": "webcdi_en_age"
         },
         {
-            "jsExpression": "concat('https: / / webcdi.stanford.edu / interface / HBCD / ',if(webcdi_en_age < 16 AND project - id == 43,'WG%20EN%20 - %20Sandbox',if(webcdi_en_age < 16 AND project - id == 57,'WG%20EN',if(webcdi_en_age >= 16 AND project - id == 43,'WS%20EN%20 - %20Sandbox',if(webcdi_en_age >= 16 AND project - id == 57,'WS%20EN','ERROR')))),' / new_parent / ?','source_id==',screening_arm_1record_id,'&','event_id==',event - name,'&','age==',webcdi_en_age,'&','sex==',screening_arm_1setup_sex,'&','offset==',screening_arm_1setup_offset)",
+            "jsExpression": "concat('https: / / webcdi.org / interface / HBCD / ',if(webcdi_en_age < 16 AND project - id == 43,'WG%20EN%20 - %20Sandbox',if(webcdi_en_age < 16 AND project - id == 57,'WG%20EN',if(webcdi_en_age >= 16 AND project - id == 43,'WS%20EN%20 - %20Sandbox',if(webcdi_en_age >= 16 AND project - id == 57,'WS%20EN','ERROR')))),' / new_parent / ?','source_id==',screening_arm_1record_id,'&','event_id==',event - name,'&','age==',webcdi_en_age,'&','sex==',screening_arm_1setup_sex,'&','offset==',screening_arm_1setup_offset)",
             "variableName": "webcdi_en_url"
         }
     ],
@@ -97,6 +97,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid280",
+    "version": "revid305",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
