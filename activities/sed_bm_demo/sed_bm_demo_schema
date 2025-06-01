@@ -485,8 +485,9 @@
             "items/sed_bm_demo_work_054_i_17",
             "items/sed_bm_demo_work_054_i_18",
             "items/sed_bm_demo_work_i_env_007",
-            "items/sed_bm_demo_obp_001",
             "items/sed_bm_demo_instr05",
+            "items/sed_bm_demo_obp_001",
+            "items/sed_bm_demo_instr07",
             "items/sed_bm_demo_age_i_oth_001",
             "items/sed_bm_demo_herit_i_oth_002",
             "items/sed_bm_demo_herit_i_oth_002_i_01",
@@ -546,7 +547,7 @@
             },
             {
                 "isAbout": "items/sed_bm_demo_gndrident_001",
-                "isVis": "event - name == 'v01_arm_1' OR(event - name == 'v02_arm_1' AND screening_arm_1recruitment_period == '2')OR event - name == 'v04_arm_1' OR event - name == 'v06_arm_1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "sed_bm_demo_gndrident_001"
             },
@@ -3353,16 +3354,22 @@
                 "variableName": "sed_bm_demo_work_i_env_007"
             },
             {
+                "isAbout": "items/sed_bm_demo_instr05",
+                "isVis": "sed_bm_demo_obp_001 == '1'",
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_instr05"
+            },
+            {
                 "isAbout": "items/sed_bm_demo_obp_001",
                 "isVis": "event - name == 'v01_arm_1' OR(screening_arm_1recruitment_period == '2' AND event - name == 'v02_arm_1')",
                 "valueRequired": true,
                 "variableName": "sed_bm_demo_obp_001"
             },
             {
-                "isAbout": "items/sed_bm_demo_instr05",
+                "isAbout": "items/sed_bm_demo_instr07",
                 "isVis": "sed_bm_demo_obp_001 == '1'",
                 "valueRequired": false,
-                "variableName": "sed_bm_demo_instr05"
+                "variableName": "sed_bm_demo_instr07"
             },
             {
                 "isAbout": "items/sed_bm_demo_age_i_oth_001",
@@ -3517,6 +3524,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid432",
+    "version": "revid433",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

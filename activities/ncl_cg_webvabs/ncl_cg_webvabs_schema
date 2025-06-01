@@ -1,0 +1,45 @@
+{
+    "id": "ncl_cg_webvabs_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ncl_cg_webvabs"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ncl_cg_webvabs_redirect",
+            "items/ncl_cg_webvabs_banner_post",
+            "items/ncl_cg_webvabs_completion_status",
+            "items/ncl_cg_webvabs_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ncl_cg_webvabs_redirect",
+                "isVis": "ncl_cg_webvabs_completion_status !== '1'",
+                "valueRequired": false,
+                "variableName": "ncl_cg_webvabs_redirect"
+            },
+            {
+                "isAbout": "items/ncl_cg_webvabs_banner_post",
+                "isVis": "ncl_cg_webvabs_completion_status == '1'",
+                "valueRequired": false,
+                "variableName": "ncl_cg_webvabs_banner_post"
+            },
+            {
+                "isAbout": "items/ncl_cg_webvabs_completion_status",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "ncl_cg_webvabs_completion_status"
+            },
+            {
+                "isAbout": "items/ncl_cg_webvabs_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_cg_webvabs_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid433",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,11 +1,18 @@
 {
     "id": "sed_bm_demo_child_i_roster_033_i_03",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE='3,999'"
+        }
+    ],
     "prefLabel": {
         "en": "sed_bm_demo_child_i_roster_033_i_03"
     },
     "question": {
-        "en": "Person 13 gender household 2"
+        "en": "Person 13 sex household 2"
     },
     "responseOptions": {
         "choices": [

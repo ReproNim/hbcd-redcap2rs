@@ -5,7 +5,7 @@
         "en": "sed_bm_demo_roster_table_00"
     },
     "question": {
-        "en": "Person #Years of ageMonths of ageGenderRelationship to self"
+        "en": "Person #Years of ageMonths of ageSexRelationship to self"
     },
     "responseOptions": {
         "valueType": [

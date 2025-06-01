@@ -8,6 +8,9 @@
             "value": "@HIDDEN @LANGUAGE-CURRENT-SURVEY"
         }
     ],
+    "preamble": {
+        "en": "Child's Race and Ethnicity"
+    },
     "prefLabel": {
         "en": "sed_bm_demo_child_lang"
     },

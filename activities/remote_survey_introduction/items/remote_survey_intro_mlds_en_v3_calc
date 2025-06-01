@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@IF(\n([v03_arm_1][ncl_ch_mlds_en] >= 30 OR ([v03_arm_1][ncl_ch_mlds_001_i_01(1)] = '0' AND [v03_arm_1][ncl_ch_mlds_001_i_01(2)] = '0' AND [v03_arm_1][ncl_ch_mlds_001_i_01(3)] = '1')), @DEFAULT='1', 0) @HIDDEN"
+            "value": "@IF(\n([v03_arm_1][ncl_ch_mlds_en] >= 30 OR ([v03_arm_1][ncl_ch_mlds_001_i_01(1)] = '0' AND [v03_arm_1][ncl_ch_mlds_001_i_01(2)] = '0' AND [v03_arm_1][ncl_ch_mlds_001_i_01(3)] = '1')), @DEFAULT='1', 0)\n@HIDDEN"
         }
     ],
     "prefLabel": {

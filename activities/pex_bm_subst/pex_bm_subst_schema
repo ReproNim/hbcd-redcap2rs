@@ -262,7 +262,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_opioid_001",
-                "isVis": "(v01_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_006 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_007 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_008 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_009 == '1')",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_009 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_006 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_007 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_008 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_009 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_opioid_001"
             },
@@ -322,7 +322,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_opioid_003",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_006 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_007 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_008 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_009 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_009 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_006 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_007 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_008 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_009 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_opioid_003"
             },
@@ -382,7 +382,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_opioid_005",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_006 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_007 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_008 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_009 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_009 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_006 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_007 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_008 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_009 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_opioid_005"
             },
@@ -442,7 +442,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_cannabis_001",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_003 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_003 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_003 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_003 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_003 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_cannabis_001"
             },
@@ -538,7 +538,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_cannabis_003",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_003 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_003 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_003 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_003 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_003 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_cannabis_003"
             },
@@ -634,7 +634,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_cannabis_005",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_003 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_003 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_003 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_003 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_003 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_cannabis_005"
             },
@@ -730,7 +730,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_tobacco_001",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_001 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_001 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_001 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_001 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_001 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_tobacco_001"
             },
@@ -826,7 +826,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_tobacco_003",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_001 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_001 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_001 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_001 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_001 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_tobacco_003"
             },
@@ -922,7 +922,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_tobacco_005",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_001 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_001 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_001 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_001 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_001 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_tobacco_005"
             },
@@ -1018,7 +1018,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_alcohol_001",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_002 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_002 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_002 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_002 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_002 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_alcohol_001"
             },
@@ -1066,7 +1066,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_alcohol_003",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_002 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_002 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_002 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_002 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_002 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_alcohol_003"
             },
@@ -1114,7 +1114,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_alcohol_005",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_002 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_002 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_002 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_002 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_002 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_alcohol_005"
             },
@@ -1162,7 +1162,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_stimulants_001",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_011 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_012 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_013 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_011 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_012 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_stimulants_001"
             },
@@ -1222,7 +1222,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_stimulants_003",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_011 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_012 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_013 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_011 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_012 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_stimulants_003"
             },
@@ -1282,7 +1282,7 @@
             },
             {
                 "isAbout": "items/pex_bm_subst_stimulants_005",
-                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_011 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_012 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1'",
+                "isVis": "v01_arm_1pex_bm_assistv1_pre_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_pre_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_pre_i_use_013 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_011 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_012 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1'",
                 "valueRequired": true,
                 "variableName": "pex_bm_subst_stimulants_005"
             },
@@ -1349,6 +1349,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid432",
+    "version": "revid433",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

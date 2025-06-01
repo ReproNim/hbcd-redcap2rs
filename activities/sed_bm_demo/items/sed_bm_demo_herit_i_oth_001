@@ -2,7 +2,7 @@
     "id": "sed_bm_demo_herit_i_oth_001",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Demographics of baby's other biological parent"
+        "en": "Demographics of child's other biological parent"
     },
     "prefLabel": {
         "en": "sed_bm_demo_herit_i_oth_001"

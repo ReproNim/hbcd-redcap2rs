@@ -1,0 +1,20 @@
+{
+    "id": "ncl_cg_spm2_i_tod_dtaalert_05",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ncl_cg_spm2_i_tod_dtaalert_05"
+    },
+    "question": {
+        "en": "Decline to answer: If you have never observed the behavior described or your child has not yet had an opportunity, please mark \"never\". If you prefer not to tell us about this item, please mark \"Decline to answer\"."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

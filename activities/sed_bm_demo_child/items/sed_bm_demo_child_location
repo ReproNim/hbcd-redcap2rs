@@ -8,6 +8,9 @@
             "value": "@IF([event-name][visit_start_complete] != 2, @DEFAULT='1', @DEFAULT='2') @HIDDEN"
         }
     ],
+    "preamble": {
+        "en": "Child's Race and Ethnicity"
+    },
     "prefLabel": {
         "en": "sed_bm_demo_child_location"
     },

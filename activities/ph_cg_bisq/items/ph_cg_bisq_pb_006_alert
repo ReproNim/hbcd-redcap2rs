@@ -1,0 +1,20 @@
+{
+    "id": "ph_cg_bisq_pb_006_alert",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_pb_006_alert"
+    },
+    "question": {
+        "en": "AlertTime child is put to bed is earlier than time bedtime routine is started. Please correct."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

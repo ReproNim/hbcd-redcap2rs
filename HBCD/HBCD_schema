@@ -84,7 +84,7 @@
             "../activities/sed_bm_demo_child/sed_bm_demo_child_schema",
             "../activities/admin_part_fb/admin_part_fb_schema",
             "../activities/ncl_ch_mlds/ncl_ch_mlds_schema",
-            "../activities/ncl_cg_vabs/ncl_cg_vabs_schema",
+            "../activities/ncl_cg_webvabs/ncl_cg_webvabs_schema",
             "../activities/webcdi_en/webcdi_en_schema",
             "../activities/webcdi_es/webcdi_es_schema",
             "../activities/mh_cg_cbcl_i_1to5/mh_cg_cbcl_i_1to5_schema",
@@ -691,12 +691,12 @@
                 "variableName": "ncl_ch_mlds_schema"
             },
             {
-                "isAbout": "../activities/ncl_cg_vabs/ncl_cg_vabs_schema",
+                "isAbout": "../activities/ncl_cg_webvabs/ncl_cg_webvabs_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Ncl Cg Vabs"
+                    "en": "Ncl Cg Webvabs"
                 },
-                "variableName": "ncl_cg_vabs_schema"
+                "variableName": "ncl_cg_webvabs_schema"
             },
             {
                 "isAbout": "../activities/webcdi_en/webcdi_en_schema",
@@ -789,6 +789,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid432",
+    "version": "revid433",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

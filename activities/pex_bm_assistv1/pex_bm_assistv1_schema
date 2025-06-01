@@ -1469,19 +1469,19 @@
             },
             {
                 "isAbout": "items/pex_bm_assistv1_pre_during_i_use_i_amount_008_v01",
-                "isVis": "pex_bm_assistv1_pre_during_i_use_i_unit_008 == '1' AND pex_bm_assistv1_pre_during_i_use_i_unit_008_dk ==''",
+                "isVis": "(pex_bm_assistv1_pre_i_use_008 == '1' OR pex_bm_assistv1_during_i_use_008 == '1')AND pex_bm_assistv1_pre_during_i_use_i_unit_008_dk == ''",
                 "valueRequired": true,
                 "variableName": "pex_bm_assistv1_pre_during_i_use_i_amount_008_v01"
             },
             {
                 "isAbout": "items/pex_bm_assistv1_pre_during_i_use_i_unit_008",
-                "isVis": "pex_bm_assistv1_pre_i_use_008 == '1' OR pex_bm_assistv1_during_i_use_008 == '1' AND pex_bm_assistv1_pre_during_i_use_i_unit_008_dk == ''",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "pex_bm_assistv1_pre_during_i_use_i_unit_008"
             },
             {
                 "isAbout": "items/pex_bm_assistv1_pre_during_i_use_i_unit_008_dk",
-                "isVis": "pex_bm_assistv1_pre_i_use_008 == '1' OR pex_bm_assistv1_during_i_use_008 == '1' AND pex_bm_assistv1_pre_during_i_use_i_unit_008 == ''",
+                "isVis": "(pex_bm_assistv1_pre_i_use_008 == '1' OR pex_bm_assistv1_during_i_use_008 == '1')AND pex_bm_assistv1_pre_during_i_use_i_unit_008 == ''",
                 "valueRequired": true,
                 "variableName": "pex_bm_assistv1_pre_during_i_use_i_unit_008_dk"
             },
@@ -1650,6 +1650,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid432",
+    "version": "revid433",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

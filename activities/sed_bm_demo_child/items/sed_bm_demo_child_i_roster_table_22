@@ -5,7 +5,7 @@
         "en": "sed_bm_demo_child_i_roster_table_22"
     },
     "question": {
-        "en": "Person 6Years of age{sed_bm_demo_child_i_roster_026_i_01}Months of age{sed_bm_demo_child_i_roster_026_i_02}Gender{sed_bm_demo_child_i_roster_026_i_03}{sed_bm_demo_child_i_roster_026_i_03_i_01}Relationship to YOU{sed_bm_demo_child_i_roster_026_i_04}Relationship to Child{sed_bm_demo_child_i_roster_026_i_05}Average\u00a0 days per month this person cares for the child?{sed_bm_demo_child_i_roster_026_i_06}"
+        "en": "Person 6Years of age{sed_bm_demo_child_i_roster_026_i_01}Months of age{sed_bm_demo_child_i_roster_026_i_02}Sex{sed_bm_demo_child_i_roster_026_i_03}{sed_bm_demo_child_i_roster_026_i_03_i_01}Relationship to YOU{sed_bm_demo_child_i_roster_026_i_04}Relationship to Child{sed_bm_demo_child_i_roster_026_i_05}Average\u00a0 days per month this person cares for the child?{sed_bm_demo_child_i_roster_026_i_06}"
     },
     "responseOptions": {
         "valueType": [

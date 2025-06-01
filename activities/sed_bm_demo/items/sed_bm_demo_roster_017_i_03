@@ -1,11 +1,18 @@
 {
     "id": "sed_bm_demo_roster_017_i_03",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE='3,999'"
+        }
+    ],
     "prefLabel": {
         "en": "sed_bm_demo_roster_017_i_03"
     },
     "question": {
-        "en": "Person 14 gender"
+        "en": "Person 14 sex"
     },
     "responseOptions": {
         "choices": [

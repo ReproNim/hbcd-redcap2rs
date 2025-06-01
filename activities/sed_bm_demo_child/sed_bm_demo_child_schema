@@ -23,11 +23,11 @@
             "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_01_i_01"
         },
         {
-            "jsExpression": "if((sed_bm_demo_child_i_roster_020_i_02_i_02 == '777' OR sed_bm_demo_child_i_roster_020_i_02_i_01 == '999'),'',sed_bm_demo_child_i_roster_020_i_02_i_02)",
+            "jsExpression": "if((sed_bm_demo_child_i_roster_020_i_02_i_02 == '777' OR sed_bm_demo_child_i_roster_020_i_02_i_02 == '999'),'',sed_bm_demo_child_i_roster_020_i_02_i_02)",
             "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_02_i_01"
         },
         {
-            "jsExpression": "sum(sed_bm_demo_child_i_roster_020_i_02_i_01_i_01,sed_bm_demo_child_i_roster_020_i_02_i_01_i_01)",
+            "jsExpression": "sum(sed_bm_demo_child_i_roster_020_i_02_i_01_i_01,sed_bm_demo_child_i_roster_020_i_02_i_02_i_01)",
             "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_03"
         }
     ],
@@ -2149,6 +2149,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid432",
+    "version": "revid433",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

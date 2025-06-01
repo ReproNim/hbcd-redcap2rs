@@ -1,11 +1,18 @@
 {
     "id": "pex_bm_assistv1_pre_during_i_use_i_unit_008",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "prefLabel": {
         "en": "pex_bm_assistv1_pre_during_i_use_i_unit_008"
     },
     "question": {
-        "en": "Methadone (units)"
+        "en": "RETIRED FIELD: Methadone (units)"
     },
     "responseOptions": {
         "choices": [
@@ -21,7 +28,8 @@
         ]
     },
     "ui": {
-        "inputType": "select"
+        "inputType": "select",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

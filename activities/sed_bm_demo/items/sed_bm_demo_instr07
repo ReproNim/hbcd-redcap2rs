@@ -1,0 +1,23 @@
+{
+    "id": "sed_bm_demo_instr07",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Demographics of child's other biological parent"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_instr07"
+    },
+    "question": {
+        "en": "We appreciate your effort in answering these questions, regardless of your current relationship or contact with the other biological parent. Please provide information to the best of your knowledge."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
