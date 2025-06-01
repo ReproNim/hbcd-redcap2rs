@@ -73,6 +73,7 @@
             "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_008",
             "items/pex_bm_health_preg_i_healthhx_i_pregcurr_001",
             "items/pex_bm_health_preg_i_healthhx_i_pregcurr_002",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_03",
             "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_00",
             "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_01",
             "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_02",
@@ -384,8 +385,14 @@
                 "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_002"
             },
             {
-                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_00",
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_03",
                 "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_00",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_03 == '1'",
                 "valueRequired": false,
                 "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_00"
             },
@@ -554,6 +561,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid409",
+    "version": "revid432",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

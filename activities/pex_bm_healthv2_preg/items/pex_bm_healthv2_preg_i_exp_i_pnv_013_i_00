@@ -1,0 +1,20 @@
+{
+    "id": "pex_bm_healthv2_preg_i_exp_i_pnv_013_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_exp_i_pnv_013_i_00"
+    },
+    "question": {
+        "en": "How many weeks or months pregnant were you when you had your first visit for prenatal care? Select number and unit (week or months; weeks preferred).{pex_bm_healthv2_preg_i_exp_i_pnv_013_i_01} {pex_bm_healthv2_preg_i_exp_i_pnv_013_i_02} {pex_bm_healthv2_preg_i_exp_i_pnv_013_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

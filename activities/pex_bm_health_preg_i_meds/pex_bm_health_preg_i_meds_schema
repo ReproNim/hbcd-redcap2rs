@@ -356,6 +356,7 @@
             "items/pex_bm_health_preg_i_meds_024_i_05_i_00",
             "items/pex_bm_health_preg_i_meds_024_i_05_i_01",
             "items/pex_bm_health_preg_i_meds_024_i_05_i_01_dk",
+            "items/pex_bm_health_preg_i_meds_025",
             "items/pex_bm_health_preg_i_meds_complete"
         ],
         "addProperties": [
@@ -2454,6 +2455,12 @@
                 "variableName": "pex_bm_health_preg_i_meds_024_i_05_i_01_dk"
             },
             {
+                "isAbout": "items/pex_bm_health_preg_i_meds_025",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_meds_025"
+            },
+            {
                 "isAbout": "items/pex_bm_health_preg_i_meds_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -2462,6 +2469,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid409",
+    "version": "revid432",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
