@@ -1,0 +1,27 @@
+{
+    "id": "remote_survey_intro_mlds_en_v3_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@IF(\n([v03_arm_1][ncl_ch_mlds_en] >= 30 OR ([v03_arm_1][ncl_ch_mlds_001_i_01(1)] = '0' AND [v03_arm_1][ncl_ch_mlds_001_i_01(2)] = '0' AND [v03_arm_1][ncl_ch_mlds_001_i_01(3)] = '1')), @DEFAULT='1', 0) @HIDDEN"
+        }
+    ],
+    "prefLabel": {
+        "en": "remote_survey_intro_mlds_en_v3_calc"
+    },
+    "question": {
+        "en": "Eng- MLDS V3"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

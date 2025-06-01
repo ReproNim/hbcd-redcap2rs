@@ -1,0 +1,62 @@
+{
+    "id": "pex_bm_subst_alcohol_002",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='999,777'"
+        }
+    ],
+    "preamble": {
+        "en": "Alcohol - First trimester"
+    },
+    "prefLabel": {
+        "en": "pex_bm_subst_alcohol_002"
+    },
+    "question": {
+        "en": "Please check any alcohol used for any reason:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Beer, hard cider, hard seltzers"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Wine"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Spirits/liquor"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

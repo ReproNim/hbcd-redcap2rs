@@ -30,6 +30,7 @@
             "items/pex_bm_assistv3_3m_i_use_016",
             "items/pex_bm_assistv3_3m_i_use_017",
             "items/pex_bm_assistv3_3m_i_use_018",
+            "items/pex_bm_assistv3_3m_i_use_019",
             "items/pex_bm_assistv3_instr30",
             "items/pex_bm_assistv3_3m_i_problem_001",
             "items/pex_bm_assistv3_3m_i_problem_002",
@@ -49,6 +50,7 @@
             "items/pex_bm_assistv3_3m_i_problem_016",
             "items/pex_bm_assistv3_3m_i_problem_017",
             "items/pex_bm_assistv3_3m_i_problem_018",
+            "items/pex_bm_assistv3_3m_i_problem_019",
             "items/pex_bm_assistv3_instr31",
             "items/pex_bm_assistv3_3m_i_perform_001",
             "items/pex_bm_assistv3_3m_i_perform_002",
@@ -68,6 +70,7 @@
             "items/pex_bm_assistv3_3m_i_perform_016",
             "items/pex_bm_assistv3_3m_i_perform_017",
             "items/pex_bm_assistv3_3m_i_perform_018",
+            "items/pex_bm_assistv3_3m_i_perform_019",
             "items/pex_bm_assistv3_complete"
         ],
         "addProperties": [
@@ -210,8 +213,14 @@
                 "variableName": "pex_bm_assistv3_3m_i_use_018"
             },
             {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_019",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_019"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv3_instr30",
-                "isVis": "sum(pex_bm_assistv3_3m_i_use_001,pex_bm_assistv3_3m_i_use_002,pex_bm_assistv3_3m_i_use_003,pex_bm_assistv3_3m_i_use_004,pex_bm_assistv3_3m_i_use_005,pex_bm_assistv3_3m_i_use_006,pex_bm_assistv3_3m_i_use_007,pex_bm_assistv3_3m_i_use_008,pex_bm_assistv3_3m_i_use_009,pex_bm_assistv3_3m_i_use_010,pex_bm_assistv3_3m_i_use_011,pex_bm_assistv3_3m_i_use_012,pex_bm_assistv3_3m_i_use_013,pex_bm_assistv3_3m_i_use_014,pex_bm_assistv3_3m_i_use_015,pex_bm_assistv3_3m_i_use_016,pex_bm_assistv3_3m_i_use_017,pex_bm_assistv3_3m_i_use_018)> 0 AND sum(pex_bm_assistv3_3m_i_use_001,pex_bm_assistv3_3m_i_use_002,pex_bm_assistv3_3m_i_use_003,pex_bm_assistv3_3m_i_use_004,pex_bm_assistv3_3m_i_use_005,pex_bm_assistv3_3m_i_use_006,pex_bm_assistv3_3m_i_use_007,pex_bm_assistv3_3m_i_use_008,pex_bm_assistv3_3m_i_use_009,pex_bm_assistv3_3m_i_use_010,pex_bm_assistv3_3m_i_use_011,pex_bm_assistv3_3m_i_use_012,pex_bm_assistv3_3m_i_use_013,pex_bm_assistv3_3m_i_use_014,pex_bm_assistv3_3m_i_use_015,pex_bm_assistv3_3m_i_use_016,pex_bm_assistv3_3m_i_use_017,pex_bm_assistv3_3m_i_use_018)< 777",
+                "isVis": "sum(pex_bm_assistv3_3m_i_use_001,pex_bm_assistv3_3m_i_use_002,pex_bm_assistv3_3m_i_use_003,pex_bm_assistv3_3m_i_use_004,pex_bm_assistv3_3m_i_use_005,pex_bm_assistv3_3m_i_use_006,pex_bm_assistv3_3m_i_use_007,pex_bm_assistv3_3m_i_use_008,pex_bm_assistv3_3m_i_use_009,pex_bm_assistv3_3m_i_use_010,pex_bm_assistv3_3m_i_use_011,pex_bm_assistv3_3m_i_use_012,pex_bm_assistv3_3m_i_use_013,pex_bm_assistv3_3m_i_use_014,pex_bm_assistv3_3m_i_use_015,pex_bm_assistv3_3m_i_use_016,pex_bm_assistv3_3m_i_use_017,pex_bm_assistv3_3m_i_use_018,pex_bm_assistv3_3m_i_use_019)> 0 AND sum(pex_bm_assistv3_3m_i_use_001,pex_bm_assistv3_3m_i_use_002,pex_bm_assistv3_3m_i_use_003,pex_bm_assistv3_3m_i_use_004,pex_bm_assistv3_3m_i_use_005,pex_bm_assistv3_3m_i_use_006,pex_bm_assistv3_3m_i_use_007,pex_bm_assistv3_3m_i_use_008,pex_bm_assistv3_3m_i_use_009,pex_bm_assistv3_3m_i_use_010,pex_bm_assistv3_3m_i_use_011,pex_bm_assistv3_3m_i_use_012,pex_bm_assistv3_3m_i_use_013,pex_bm_assistv3_3m_i_use_014,pex_bm_assistv3_3m_i_use_015,pex_bm_assistv3_3m_i_use_016,pex_bm_assistv3_3m_i_use_017,pex_bm_assistv3_3m_i_use_018,pex_bm_assistv3_3m_i_use_019)< 777",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv3_instr30"
             },
@@ -324,8 +333,14 @@
                 "variableName": "pex_bm_assistv3_3m_i_problem_018"
             },
             {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_019",
+                "isVis": "(pex_bm_assistv3_3m_i_use_019 == '1' OR pex_bm_assistv3_3m_i_use_019 == '2' OR pex_bm_assistv3_3m_i_use_019 == '3' OR pex_bm_assistv3_3m_i_use_019 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_019"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv3_instr31",
-                "isVis": "sum(pex_bm_assistv3_3m_i_use_001,pex_bm_assistv3_3m_i_use_002,pex_bm_assistv3_3m_i_use_003,pex_bm_assistv3_3m_i_use_004,pex_bm_assistv3_3m_i_use_005,pex_bm_assistv3_3m_i_use_006,pex_bm_assistv3_3m_i_use_007,pex_bm_assistv3_3m_i_use_008,pex_bm_assistv3_3m_i_use_009,pex_bm_assistv3_3m_i_use_010,pex_bm_assistv3_3m_i_use_011,pex_bm_assistv3_3m_i_use_012,pex_bm_assistv3_3m_i_use_013,pex_bm_assistv3_3m_i_use_014,pex_bm_assistv3_3m_i_use_015,pex_bm_assistv3_3m_i_use_016,pex_bm_assistv3_3m_i_use_017,pex_bm_assistv3_3m_i_use_018)> 0 AND sum(pex_bm_assistv3_3m_i_use_001,pex_bm_assistv3_3m_i_use_002,pex_bm_assistv3_3m_i_use_003,pex_bm_assistv3_3m_i_use_004,pex_bm_assistv3_3m_i_use_005,pex_bm_assistv3_3m_i_use_006,pex_bm_assistv3_3m_i_use_007,pex_bm_assistv3_3m_i_use_008,pex_bm_assistv3_3m_i_use_009,pex_bm_assistv3_3m_i_use_010,pex_bm_assistv3_3m_i_use_011,pex_bm_assistv3_3m_i_use_012,pex_bm_assistv3_3m_i_use_013,pex_bm_assistv3_3m_i_use_014,pex_bm_assistv3_3m_i_use_015,pex_bm_assistv3_3m_i_use_016,pex_bm_assistv3_3m_i_use_017,pex_bm_assistv3_3m_i_use_018)< 777",
+                "isVis": "sum(pex_bm_assistv3_3m_i_use_001,pex_bm_assistv3_3m_i_use_002,pex_bm_assistv3_3m_i_use_003,pex_bm_assistv3_3m_i_use_004,pex_bm_assistv3_3m_i_use_005,pex_bm_assistv3_3m_i_use_006,pex_bm_assistv3_3m_i_use_007,pex_bm_assistv3_3m_i_use_008,pex_bm_assistv3_3m_i_use_009,pex_bm_assistv3_3m_i_use_010,pex_bm_assistv3_3m_i_use_011,pex_bm_assistv3_3m_i_use_012,pex_bm_assistv3_3m_i_use_013,pex_bm_assistv3_3m_i_use_014,pex_bm_assistv3_3m_i_use_015,pex_bm_assistv3_3m_i_use_016,pex_bm_assistv3_3m_i_use_017,pex_bm_assistv3_3m_i_use_018,pex_bm_assistv3_3m_i_use_019)> 0 AND sum(pex_bm_assistv3_3m_i_use_001,pex_bm_assistv3_3m_i_use_002,pex_bm_assistv3_3m_i_use_003,pex_bm_assistv3_3m_i_use_004,pex_bm_assistv3_3m_i_use_005,pex_bm_assistv3_3m_i_use_006,pex_bm_assistv3_3m_i_use_007,pex_bm_assistv3_3m_i_use_008,pex_bm_assistv3_3m_i_use_009,pex_bm_assistv3_3m_i_use_010,pex_bm_assistv3_3m_i_use_011,pex_bm_assistv3_3m_i_use_012,pex_bm_assistv3_3m_i_use_013,pex_bm_assistv3_3m_i_use_014,pex_bm_assistv3_3m_i_use_015,pex_bm_assistv3_3m_i_use_016,pex_bm_assistv3_3m_i_use_017,pex_bm_assistv3_3m_i_use_018,pex_bm_assistv3_3m_i_use_019)< 777",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv3_instr31"
             },
@@ -438,6 +453,12 @@
                 "variableName": "pex_bm_assistv3_3m_i_perform_018"
             },
             {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_019",
+                "isVis": "(pex_bm_assistv3_3m_i_use_019 == '1' OR pex_bm_assistv3_3m_i_use_019 == '2' OR pex_bm_assistv3_3m_i_use_019 == '3' OR pex_bm_assistv3_3m_i_use_019 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_019"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv3_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -446,6 +467,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid371",
+    "version": "revid404",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

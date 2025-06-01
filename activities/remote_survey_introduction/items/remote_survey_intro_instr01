@@ -1,0 +1,20 @@
+{
+    "id": "remote_survey_intro_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "remote_survey_intro_instr01"
+    },
+    "question": {
+        "en": "Please click \"Submit\" to start the first survey."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

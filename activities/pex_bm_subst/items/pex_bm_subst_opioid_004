@@ -1,0 +1,68 @@
+{
+    "id": "pex_bm_subst_opioid_004",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='999,777'"
+        }
+    ],
+    "preamble": {
+        "en": "Opioids - Second trimester"
+    },
+    "prefLabel": {
+        "en": "pex_bm_subst_opioid_004"
+    },
+    "question": {
+        "en": "Please check any opioids used for any reason:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Heroin or other illicit opioids (e.g. illicit fentanyl, etc)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Prescription opioids (oxycodone, morphine, codeine, tramadol, etc.)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Methadone"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Buprenorphine"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

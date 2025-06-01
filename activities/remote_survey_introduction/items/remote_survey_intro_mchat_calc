@@ -1,0 +1,27 @@
+{
+    "id": "remote_survey_intro_mchat_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@IF([v07_arm_1][remote_completion_dtt] != '' AND [v07_arm_1][mh_ch_mchat_complete] != '2', @DEFAULT='1', 0) @HIDDEN"
+        }
+    ],
+    "prefLabel": {
+        "en": "remote_survey_intro_mchat_calc"
+    },
+    "question": {
+        "en": "MCHAT calc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

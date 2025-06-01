@@ -1,0 +1,32 @@
+{
+    "id": "pex_bm_subst_3tri_start",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_mdy"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@IF([v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_005] != '', @DEFAULT='[v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_005]', @DEFAULT=' [v02_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_005]')\n@HIDDEN"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_subst_3tri_start"
+    },
+    "question": {
+        "en": "Third trimester start"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

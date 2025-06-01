@@ -1,0 +1,20 @@
+{
+    "id": "pex_bm_subst_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_subst_instr01"
+    },
+    "question": {
+        "en": "Please complete the following information. Use your best estimate if patterns of use change over the periods below. \n\nIf you see no questions below, please hit \"Submit\" to move on to the next survey."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

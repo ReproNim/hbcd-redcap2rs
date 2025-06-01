@@ -1,0 +1,1354 @@
+{
+    "id": "pex_bm_subst_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_subst"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_subst_lang",
+            "items/pex_bm_subst_dtt",
+            "items/pex_bm_subst_timestamp_start",
+            "items/pex_bm_subst_location",
+            "items/pex_bm_subst_instr01",
+            "items/pex_bm_subst_1tri_start",
+            "items/pex_bm_subst_1tri_end",
+            "items/pex_bm_subst_2tri_start",
+            "items/pex_bm_subst_2tri_end",
+            "items/pex_bm_subst_3tri_start",
+            "items/pex_bm_subst_opioid_001",
+            "items/pex_bm_subst_opioid_002",
+            "items/pex_bm_subst_opioid_002_i_01",
+            "items/pex_bm_subst_opioid_002_i_01_i_01",
+            "items/pex_bm_subst_opioid_002_i_02",
+            "items/pex_bm_subst_opioid_002_i_02_i_01",
+            "items/pex_bm_subst_opioid_002_i_03",
+            "items/pex_bm_subst_opioid_002_i_03_i_01",
+            "items/pex_bm_subst_opioid_002_i_04",
+            "items/pex_bm_subst_opioid_002_i_04_i_01",
+            "items/pex_bm_subst_opioid_003",
+            "items/pex_bm_subst_opioid_004",
+            "items/pex_bm_subst_opioid_004_i_01",
+            "items/pex_bm_subst_opioid_004_i_01_i_01",
+            "items/pex_bm_subst_opioid_004_i_02",
+            "items/pex_bm_subst_opioid_004_i_02_i_01",
+            "items/pex_bm_subst_opioid_004_i_03",
+            "items/pex_bm_subst_opioid_004_i_03_i_01",
+            "items/pex_bm_subst_opioid_004_i_04",
+            "items/pex_bm_subst_opioid_004_i_04_i_01",
+            "items/pex_bm_subst_opioid_005",
+            "items/pex_bm_subst_opioid_006",
+            "items/pex_bm_subst_opioid_006_i_01",
+            "items/pex_bm_subst_opioid_006_i_01_i_01",
+            "items/pex_bm_subst_opioid_006_i_02",
+            "items/pex_bm_subst_opioid_006_i_02_i_01",
+            "items/pex_bm_subst_opioid_006_i_03",
+            "items/pex_bm_subst_opioid_006_i_03_i_01",
+            "items/pex_bm_subst_opioid_006_i_04",
+            "items/pex_bm_subst_opioid_006_i_04_i_01",
+            "items/pex_bm_subst_cannabis_001",
+            "items/pex_bm_subst_cannabis_002",
+            "items/pex_bm_subst_cannabis_002_i_01",
+            "items/pex_bm_subst_cannabis_002_i_01_i_01",
+            "items/pex_bm_subst_cannabis_002_i_02",
+            "items/pex_bm_subst_cannabis_002_i_02_i_01",
+            "items/pex_bm_subst_cannabis_002_i_03",
+            "items/pex_bm_subst_cannabis_002_i_03_i_01",
+            "items/pex_bm_subst_cannabis_002_i_04",
+            "items/pex_bm_subst_cannabis_002_i_04_i_01",
+            "items/pex_bm_subst_cannabis_002_i_05",
+            "items/pex_bm_subst_cannabis_002_i_05_i_01",
+            "items/pex_bm_subst_cannabis_002_i_06",
+            "items/pex_bm_subst_cannabis_002_i_06_i_01",
+            "items/pex_bm_subst_cannabis_002_i_07",
+            "items/pex_bm_subst_cannabis_002_i_07_i_01",
+            "items/pex_bm_subst_cannabis_003",
+            "items/pex_bm_subst_cannabis_004",
+            "items/pex_bm_subst_cannabis_004_i_01",
+            "items/pex_bm_subst_cannabis_004_i_01_i_01",
+            "items/pex_bm_subst_cannabis_004_i_02",
+            "items/pex_bm_subst_cannabis_004_i_02_i_01",
+            "items/pex_bm_subst_cannabis_004_i_03",
+            "items/pex_bm_subst_cannabis_004_i_03_i_01",
+            "items/pex_bm_subst_cannabis_004_i_04",
+            "items/pex_bm_subst_cannabis_004_i_04_i_01",
+            "items/pex_bm_subst_cannabis_004_i_05",
+            "items/pex_bm_subst_cannabis_004_i_05_i_01",
+            "items/pex_bm_subst_cannabis_004_i_06",
+            "items/pex_bm_subst_cannabis_004_i_06_i_01",
+            "items/pex_bm_subst_cannabis_004_i_07",
+            "items/pex_bm_subst_cannabis_004_i_07_i_01",
+            "items/pex_bm_subst_cannabis_005",
+            "items/pex_bm_subst_cannabis_006",
+            "items/pex_bm_subst_cannabis_006_i_01",
+            "items/pex_bm_subst_cannabis_006_i_01_i_01",
+            "items/pex_bm_subst_cannabis_006_i_02",
+            "items/pex_bm_subst_cannabis_006_i_02_i_01",
+            "items/pex_bm_subst_cannabis_006_i_03",
+            "items/pex_bm_subst_cannabis_006_i_03_i_01",
+            "items/pex_bm_subst_cannabis_006_i_04",
+            "items/pex_bm_subst_cannabis_006_i_04_i_01",
+            "items/pex_bm_subst_cannabis_006_i_05",
+            "items/pex_bm_subst_cannabis_006_i_05_i_01",
+            "items/pex_bm_subst_cannabis_006_i_06",
+            "items/pex_bm_subst_cannabis_006_i_06_i_01",
+            "items/pex_bm_subst_cannabis_006_i_07",
+            "items/pex_bm_subst_cannabis_006_i_07_i_01",
+            "items/pex_bm_subst_tobacco_001",
+            "items/pex_bm_subst_tobacco_002",
+            "items/pex_bm_subst_tobacco_002_i_01",
+            "items/pex_bm_subst_tobacco_002_i_01_i_01",
+            "items/pex_bm_subst_tobacco_002_i_02",
+            "items/pex_bm_subst_tobacco_002_i_02_i_01",
+            "items/pex_bm_subst_tobacco_002_i_03",
+            "items/pex_bm_subst_tobacco_002_i_03_i_01",
+            "items/pex_bm_subst_tobacco_002_i_04",
+            "items/pex_bm_subst_tobacco_002_i_04_i_01",
+            "items/pex_bm_subst_tobacco_002_i_05",
+            "items/pex_bm_subst_tobacco_002_i_05_i_01",
+            "items/pex_bm_subst_tobacco_002_i_06",
+            "items/pex_bm_subst_tobacco_002_i_06_i_01",
+            "items/pex_bm_subst_tobacco_002_i_07",
+            "items/pex_bm_subst_tobacco_002_i_07_i_01",
+            "items/pex_bm_subst_tobacco_003",
+            "items/pex_bm_subst_tobacco_004",
+            "items/pex_bm_subst_tobacco_004_i_01",
+            "items/pex_bm_subst_tobacco_004_i_01_i_01",
+            "items/pex_bm_subst_tobacco_004_i_02",
+            "items/pex_bm_subst_tobacco_004_i_02_i_01",
+            "items/pex_bm_subst_tobacco_004_i_03",
+            "items/pex_bm_subst_tobacco_004_i_03_i_01",
+            "items/pex_bm_subst_tobacco_004_i_04",
+            "items/pex_bm_subst_tobacco_004_i_04_i_01",
+            "items/pex_bm_subst_tobacco_004_i_05",
+            "items/pex_bm_subst_tobacco_004_i_05_i_01",
+            "items/pex_bm_subst_tobacco_004_i_06",
+            "items/pex_bm_subst_tobacco_004_i_06_i_01",
+            "items/pex_bm_subst_tobacco_004_i_07",
+            "items/pex_bm_subst_tobacco_004_i_07_i_01",
+            "items/pex_bm_subst_tobacco_005",
+            "items/pex_bm_subst_tobacco_006",
+            "items/pex_bm_subst_tobacco_006_i_01",
+            "items/pex_bm_subst_tobacco_006_i_01_i_01",
+            "items/pex_bm_subst_tobacco_006_i_02",
+            "items/pex_bm_subst_tobacco_006_i_02_i_01",
+            "items/pex_bm_subst_tobacco_006_i_03",
+            "items/pex_bm_subst_tobacco_006_i_03_i_01",
+            "items/pex_bm_subst_tobacco_006_i_04",
+            "items/pex_bm_subst_tobacco_006_i_04_i_01",
+            "items/pex_bm_subst_tobacco_006_i_05",
+            "items/pex_bm_subst_tobacco_006_i_05_i_01",
+            "items/pex_bm_subst_tobacco_006_i_06",
+            "items/pex_bm_subst_tobacco_006_i_06_i_01",
+            "items/pex_bm_subst_tobacco_006_i_07",
+            "items/pex_bm_subst_tobacco_006_i_07_i_01",
+            "items/pex_bm_subst_alcohol_001",
+            "items/pex_bm_subst_alcohol_002",
+            "items/pex_bm_subst_alcohol_002_i_01",
+            "items/pex_bm_subst_alcohol_002_i_01_i_01",
+            "items/pex_bm_subst_alcohol_002_i_02",
+            "items/pex_bm_subst_alcohol_002_i_02_i_01",
+            "items/pex_bm_subst_alcohol_002_i_03",
+            "items/pex_bm_subst_alcohol_002_i_03_i_01",
+            "items/pex_bm_subst_alcohol_003",
+            "items/pex_bm_subst_alcohol_004",
+            "items/pex_bm_subst_alcohol_004_i_01",
+            "items/pex_bm_subst_alcohol_004_i_01_i_01",
+            "items/pex_bm_subst_alcohol_004_i_02",
+            "items/pex_bm_subst_alcohol_004_i_02_i_01",
+            "items/pex_bm_subst_alcohol_004_i_03",
+            "items/pex_bm_subst_alcohol_004_i_03_i_01",
+            "items/pex_bm_subst_alcohol_005",
+            "items/pex_bm_subst_alcohol_006",
+            "items/pex_bm_subst_alcohol_006_i_01",
+            "items/pex_bm_subst_alcohol_006_i_01_i_01",
+            "items/pex_bm_subst_alcohol_006_i_02",
+            "items/pex_bm_subst_alcohol_006_i_02_i_01",
+            "items/pex_bm_subst_alcohol_006_i_03",
+            "items/pex_bm_subst_alcohol_006_i_03_i_01",
+            "items/pex_bm_subst_stimulants_001",
+            "items/pex_bm_subst_stimulants_002",
+            "items/pex_bm_subst_stimulants_002_i_01",
+            "items/pex_bm_subst_stimulants_002_i_01_i_01",
+            "items/pex_bm_subst_stimulants_002_i_02",
+            "items/pex_bm_subst_stimulants_002_i_02_i_01",
+            "items/pex_bm_subst_stimulants_002_i_03",
+            "items/pex_bm_subst_stimulants_002_i_03_i_01",
+            "items/pex_bm_subst_stimulants_002_i_04",
+            "items/pex_bm_subst_stimulants_002_i_04_i_01",
+            "items/pex_bm_subst_stimulants_003",
+            "items/pex_bm_subst_stimulants_004",
+            "items/pex_bm_subst_stimulants_004_i_01",
+            "items/pex_bm_subst_stimulants_004_i_01_i_01",
+            "items/pex_bm_subst_stimulants_004_i_02",
+            "items/pex_bm_subst_stimulants_004_i_02_i_01",
+            "items/pex_bm_subst_stimulants_004_i_03",
+            "items/pex_bm_subst_stimulants_004_i_03_i_01",
+            "items/pex_bm_subst_stimulants_004_i_04",
+            "items/pex_bm_subst_stimulants_004_i_04_i_01",
+            "items/pex_bm_subst_stimulants_005",
+            "items/pex_bm_subst_stimulants_006",
+            "items/pex_bm_subst_stimulants_006_i_01",
+            "items/pex_bm_subst_stimulants_006_i_01_i_01",
+            "items/pex_bm_subst_stimulants_006_i_02",
+            "items/pex_bm_subst_stimulants_006_i_02_i_01",
+            "items/pex_bm_subst_stimulants_006_i_03",
+            "items/pex_bm_subst_stimulants_006_i_03_i_01",
+            "items/pex_bm_subst_stimulants_006_i_04",
+            "items/pex_bm_subst_stimulants_006_i_04_i_01",
+            "items/pex_bm_subst_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_subst_lang",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_dtt",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_dtt"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_timestamp_start",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_timestamp_start"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_location",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_location"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_instr01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_subst_instr01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_1tri_start",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pex_bm_subst_1tri_start"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_1tri_end",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pex_bm_subst_1tri_end"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_2tri_start",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pex_bm_subst_2tri_start"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_2tri_end",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pex_bm_subst_2tri_end"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_3tri_start",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pex_bm_subst_3tri_start"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_001",
+                "isVis": "(v01_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_006 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_007 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_008 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_009 == '1')",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_001"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002",
+                "isVis": "pex_bm_subst_opioid_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_002"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002_i_01",
+                "isVis": "pex_bm_subst_opioid_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_002_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002_i_01_i_01",
+                "isVis": "pex_bm_subst_opioid_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_002_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002_i_02",
+                "isVis": "pex_bm_subst_opioid_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_002_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002_i_02_i_01",
+                "isVis": "pex_bm_subst_opioid_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_002_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002_i_03",
+                "isVis": "pex_bm_subst_opioid_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_002_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002_i_03_i_01",
+                "isVis": "pex_bm_subst_opioid_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_002_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002_i_04",
+                "isVis": "pex_bm_subst_opioid_002___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_002_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002_i_04_i_01",
+                "isVis": "pex_bm_subst_opioid_002___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_002_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_003",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_006 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_007 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_008 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_009 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_003"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004",
+                "isVis": "pex_bm_subst_opioid_003 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_004"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004_i_01",
+                "isVis": "pex_bm_subst_opioid_004___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_004_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004_i_01_i_01",
+                "isVis": "pex_bm_subst_opioid_004___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_004_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004_i_02",
+                "isVis": "pex_bm_subst_opioid_004___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_004_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004_i_02_i_01",
+                "isVis": "pex_bm_subst_opioid_004___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_004_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004_i_03",
+                "isVis": "pex_bm_subst_opioid_004___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_004_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004_i_03_i_01",
+                "isVis": "pex_bm_subst_opioid_004___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_004_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004_i_04",
+                "isVis": "pex_bm_subst_opioid_004___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_004_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004_i_04_i_01",
+                "isVis": "pex_bm_subst_opioid_004___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_004_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_005",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_006 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_007 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_008 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_009 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_006 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_007 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_008 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_009 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_005"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006",
+                "isVis": "pex_bm_subst_opioid_005 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_006"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006_i_01",
+                "isVis": "pex_bm_subst_opioid_006___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_006_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006_i_01_i_01",
+                "isVis": "pex_bm_subst_opioid_006___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_006_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006_i_02",
+                "isVis": "pex_bm_subst_opioid_006___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_006_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006_i_02_i_01",
+                "isVis": "pex_bm_subst_opioid_006___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_006_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006_i_03",
+                "isVis": "pex_bm_subst_opioid_006___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_006_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006_i_03_i_01",
+                "isVis": "pex_bm_subst_opioid_006___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_006_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006_i_04",
+                "isVis": "pex_bm_subst_opioid_006___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_006_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006_i_04_i_01",
+                "isVis": "pex_bm_subst_opioid_006___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_opioid_006_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_001",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_003 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_003 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_001"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002",
+                "isVis": "pex_bm_subst_cannabis_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_01",
+                "isVis": "pex_bm_subst_cannabis_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_01_i_01",
+                "isVis": "pex_bm_subst_cannabis_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_02",
+                "isVis": "pex_bm_subst_cannabis_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_02_i_01",
+                "isVis": "pex_bm_subst_cannabis_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_03",
+                "isVis": "pex_bm_subst_cannabis_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_03_i_01",
+                "isVis": "pex_bm_subst_cannabis_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_04",
+                "isVis": "pex_bm_subst_cannabis_002___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_04_i_01",
+                "isVis": "pex_bm_subst_cannabis_002___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_05",
+                "isVis": "pex_bm_subst_cannabis_002___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_05_i_01",
+                "isVis": "pex_bm_subst_cannabis_002___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_05_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_06",
+                "isVis": "pex_bm_subst_cannabis_002___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_06_i_01",
+                "isVis": "pex_bm_subst_cannabis_002___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_06_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_07",
+                "isVis": "pex_bm_subst_cannabis_002___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002_i_07_i_01",
+                "isVis": "pex_bm_subst_cannabis_002___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_002_i_07_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_003",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_003 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_003 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_003"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004",
+                "isVis": "pex_bm_subst_cannabis_003 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_01",
+                "isVis": "pex_bm_subst_cannabis_004___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_01_i_01",
+                "isVis": "pex_bm_subst_cannabis_004___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_02",
+                "isVis": "pex_bm_subst_cannabis_004___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_02_i_01",
+                "isVis": "pex_bm_subst_cannabis_004___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_03",
+                "isVis": "pex_bm_subst_cannabis_004___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_03_i_01",
+                "isVis": "pex_bm_subst_cannabis_004___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_04",
+                "isVis": "pex_bm_subst_cannabis_004___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_04_i_01",
+                "isVis": "pex_bm_subst_cannabis_004___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_05",
+                "isVis": "pex_bm_subst_cannabis_004___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_05_i_01",
+                "isVis": "pex_bm_subst_cannabis_004___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_05_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_06",
+                "isVis": "pex_bm_subst_cannabis_004___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_06_i_01",
+                "isVis": "pex_bm_subst_cannabis_004___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_06_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_07",
+                "isVis": "pex_bm_subst_cannabis_004___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004_i_07_i_01",
+                "isVis": "pex_bm_subst_cannabis_004___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_004_i_07_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_005",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_003 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_003 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_003 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_005"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006",
+                "isVis": "pex_bm_subst_cannabis_005 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_01",
+                "isVis": "pex_bm_subst_cannabis_006___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_01_i_01",
+                "isVis": "pex_bm_subst_cannabis_006___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_02",
+                "isVis": "pex_bm_subst_cannabis_006___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_02_i_01",
+                "isVis": "pex_bm_subst_cannabis_006___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_03",
+                "isVis": "pex_bm_subst_cannabis_006___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_03_i_01",
+                "isVis": "pex_bm_subst_cannabis_006___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_04",
+                "isVis": "pex_bm_subst_cannabis_006___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_04_i_01",
+                "isVis": "pex_bm_subst_cannabis_006___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_05",
+                "isVis": "pex_bm_subst_cannabis_006___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_05_i_01",
+                "isVis": "pex_bm_subst_cannabis_006___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_05_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_06",
+                "isVis": "pex_bm_subst_cannabis_006___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_06_i_01",
+                "isVis": "pex_bm_subst_cannabis_006___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_06_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_07",
+                "isVis": "pex_bm_subst_cannabis_006___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006_i_07_i_01",
+                "isVis": "pex_bm_subst_cannabis_006___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_cannabis_006_i_07_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_001",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_001 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_001"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002",
+                "isVis": "pex_bm_subst_tobacco_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_01",
+                "isVis": "pex_bm_subst_tobacco_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_01_i_01",
+                "isVis": "pex_bm_subst_tobacco_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_02",
+                "isVis": "pex_bm_subst_tobacco_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_02_i_01",
+                "isVis": "pex_bm_subst_tobacco_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_03",
+                "isVis": "pex_bm_subst_tobacco_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_03_i_01",
+                "isVis": "pex_bm_subst_tobacco_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_04",
+                "isVis": "pex_bm_subst_tobacco_002___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_04_i_01",
+                "isVis": "pex_bm_subst_tobacco_002___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_05",
+                "isVis": "pex_bm_subst_tobacco_002___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_05_i_01",
+                "isVis": "pex_bm_subst_tobacco_002___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_05_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_06",
+                "isVis": "pex_bm_subst_tobacco_002___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_06_i_01",
+                "isVis": "pex_bm_subst_tobacco_002___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_06_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_07",
+                "isVis": "pex_bm_subst_tobacco_002___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002_i_07_i_01",
+                "isVis": "pex_bm_subst_tobacco_002___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_002_i_07_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_003",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_001 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_003"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004",
+                "isVis": "pex_bm_subst_tobacco_003 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_01",
+                "isVis": "pex_bm_subst_tobacco_004___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_01_i_01",
+                "isVis": "pex_bm_subst_tobacco_004___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_02",
+                "isVis": "pex_bm_subst_tobacco_004___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_02_i_01",
+                "isVis": "pex_bm_subst_tobacco_004___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_03",
+                "isVis": "pex_bm_subst_tobacco_004___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_03_i_01",
+                "isVis": "pex_bm_subst_tobacco_004___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_04",
+                "isVis": "pex_bm_subst_tobacco_004___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_04_i_01",
+                "isVis": "pex_bm_subst_tobacco_004___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_05",
+                "isVis": "pex_bm_subst_tobacco_004___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_05_i_01",
+                "isVis": "pex_bm_subst_tobacco_004___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_05_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_06",
+                "isVis": "pex_bm_subst_tobacco_004___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_06_i_01",
+                "isVis": "pex_bm_subst_tobacco_004___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_06_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_07",
+                "isVis": "pex_bm_subst_tobacco_004___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004_i_07_i_01",
+                "isVis": "pex_bm_subst_tobacco_004___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_004_i_07_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_005",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_001 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_001 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_005"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006",
+                "isVis": "pex_bm_subst_tobacco_005 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_01",
+                "isVis": "pex_bm_subst_tobacco_006___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_01_i_01",
+                "isVis": "pex_bm_subst_tobacco_006___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_02",
+                "isVis": "pex_bm_subst_tobacco_006___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_02_i_01",
+                "isVis": "pex_bm_subst_tobacco_006___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_03",
+                "isVis": "pex_bm_subst_tobacco_006___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_03_i_01",
+                "isVis": "pex_bm_subst_tobacco_006___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_04",
+                "isVis": "pex_bm_subst_tobacco_006___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_04_i_01",
+                "isVis": "pex_bm_subst_tobacco_006___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_05",
+                "isVis": "pex_bm_subst_tobacco_006___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_05_i_01",
+                "isVis": "pex_bm_subst_tobacco_006___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_05_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_06",
+                "isVis": "pex_bm_subst_tobacco_006___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_06_i_01",
+                "isVis": "pex_bm_subst_tobacco_006___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_06_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_07",
+                "isVis": "pex_bm_subst_tobacco_006___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006_i_07_i_01",
+                "isVis": "pex_bm_subst_tobacco_006___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_tobacco_006_i_07_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_001",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_002 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_002 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_001"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002",
+                "isVis": "pex_bm_subst_alcohol_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_002"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002_i_01",
+                "isVis": "pex_bm_subst_alcohol_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_002_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002_i_01_i_01",
+                "isVis": "pex_bm_subst_alcohol_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_002_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002_i_02",
+                "isVis": "pex_bm_subst_alcohol_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_002_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002_i_02_i_01",
+                "isVis": "pex_bm_subst_alcohol_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_002_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002_i_03",
+                "isVis": "pex_bm_subst_alcohol_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_002_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002_i_03_i_01",
+                "isVis": "pex_bm_subst_alcohol_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_002_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_003",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_002 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_002 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_003"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004",
+                "isVis": "pex_bm_subst_alcohol_003 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_004"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004_i_01",
+                "isVis": "pex_bm_subst_alcohol_004___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_004_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004_i_01_i_01",
+                "isVis": "pex_bm_subst_alcohol_004___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_004_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004_i_02",
+                "isVis": "pex_bm_subst_alcohol_004___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_004_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004_i_02_i_01",
+                "isVis": "pex_bm_subst_alcohol_004___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_004_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004_i_03",
+                "isVis": "pex_bm_subst_alcohol_004___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_004_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004_i_03_i_01",
+                "isVis": "pex_bm_subst_alcohol_004___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_004_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_005",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_002 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_002 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_002 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_005"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006",
+                "isVis": "pex_bm_subst_alcohol_005 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_006"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006_i_01",
+                "isVis": "pex_bm_subst_alcohol_006___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_006_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006_i_01_i_01",
+                "isVis": "pex_bm_subst_alcohol_006___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_006_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006_i_02",
+                "isVis": "pex_bm_subst_alcohol_006___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_006_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006_i_02_i_01",
+                "isVis": "pex_bm_subst_alcohol_006___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_006_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006_i_03",
+                "isVis": "pex_bm_subst_alcohol_006___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_006_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006_i_03_i_01",
+                "isVis": "pex_bm_subst_alcohol_006___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_alcohol_006_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_001",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_011 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_012 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_001"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002",
+                "isVis": "pex_bm_subst_stimulants_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_002"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002_i_01",
+                "isVis": "pex_bm_subst_stimulants_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_002_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002_i_01_i_01",
+                "isVis": "pex_bm_subst_stimulants_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_002_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002_i_02",
+                "isVis": "pex_bm_subst_stimulants_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_002_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002_i_02_i_01",
+                "isVis": "pex_bm_subst_stimulants_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_002_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002_i_03",
+                "isVis": "pex_bm_subst_stimulants_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_002_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002_i_03_i_01",
+                "isVis": "pex_bm_subst_stimulants_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_002_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002_i_04",
+                "isVis": "pex_bm_subst_stimulants_002___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_002_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002_i_04_i_01",
+                "isVis": "pex_bm_subst_stimulants_002___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_002_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_003",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_011 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_012 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_003"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004",
+                "isVis": "pex_bm_subst_stimulants_003 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_004"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004_i_01",
+                "isVis": "pex_bm_subst_stimulants_004___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_004_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004_i_01_i_01",
+                "isVis": "pex_bm_subst_stimulants_004___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_004_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004_i_02",
+                "isVis": "pex_bm_subst_stimulants_004___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_004_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004_i_02_i_01",
+                "isVis": "pex_bm_subst_stimulants_004___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_004_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004_i_03",
+                "isVis": "pex_bm_subst_stimulants_004___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_004_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004_i_03_i_01",
+                "isVis": "pex_bm_subst_stimulants_004___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_004_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004_i_04",
+                "isVis": "pex_bm_subst_stimulants_004___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_004_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004_i_04_i_01",
+                "isVis": "pex_bm_subst_stimulants_004___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_004_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_005",
+                "isVis": "v01_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v01_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_011 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_012 == '1' OR v02_arm_1pex_bm_assistv2_end_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_011 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_012 == '1' OR v02_arm_1pex_bm_assistv1_during_i_use_013 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_005"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006",
+                "isVis": "pex_bm_subst_stimulants_005 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_006"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006_i_01",
+                "isVis": "pex_bm_subst_stimulants_006___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_006_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006_i_01_i_01",
+                "isVis": "pex_bm_subst_stimulants_006___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_006_i_01_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006_i_02",
+                "isVis": "pex_bm_subst_stimulants_006___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_006_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006_i_02_i_01",
+                "isVis": "pex_bm_subst_stimulants_006___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_006_i_02_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006_i_03",
+                "isVis": "pex_bm_subst_stimulants_006___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_006_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006_i_03_i_01",
+                "isVis": "pex_bm_subst_stimulants_006___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_006_i_03_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006_i_04",
+                "isVis": "pex_bm_subst_stimulants_006___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_006_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006_i_04_i_01",
+                "isVis": "pex_bm_subst_stimulants_006___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_subst_stimulants_006_i_04_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_subst_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid404",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

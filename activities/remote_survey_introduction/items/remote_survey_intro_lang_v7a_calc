@@ -1,0 +1,27 @@
+{
+    "id": "remote_survey_intro_lang_v7a_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@IF([v07a_arm_1][remote_survey_intro_mlds_en_v6_calc] = '1' AND [v07a_arm_1][remote_survey_intro_mlds_es_v6_calc] = '', @DEFAULT= '1',\n\n@IF([v07a_arm_1][remote_survey_intro_mlds_en_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_es_v6_calc] = '1', @DEFAULT= '2',\n    \n@IF([v07a_arm_1][remote_survey_intro_mlds_en_v6_calc] = '1' AND [v07a_arm_1][remote_survey_intro_mlds_es_v6_calc] = '1', @DEFAULT= '3',\n\n@IF([v07a_arm_1][remote_survey_intro_mlds_en_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_es_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_en_v4_calc] = '1' AND [v07a_arm_1][remote_survey_intro_mlds_es_v4_calc] = '', @DEFAULT= '1',\n\n@IF([v07a_arm_1][remote_survey_intro_mlds_en_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_es_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_en_v4_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_es_v4_calc] = '1', @DEFAULT= '2',\n\n@IF([v07a_arm_1][remote_survey_intro_mlds_en_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_es_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_en_v4_calc] = '1' AND [v07a_arm_1][remote_survey_intro_mlds_es_v4_calc] = '1', @DEFAULT= '3',\n\n@IF([v07a_arm_1][remote_survey_intro_mlds_en_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_es_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_en_v4_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_es_v4_calc] = '' AND\n    [v07a_arm_1][remote_survey_intro_mlds_en_v3_calc] = '1' AND\n    [v07a_arm_1][remote_survey_intro_mlds_es_v3_calc] = '',@DEFAULT= '1',\n    \n@IF([v07a_arm_1][remote_survey_intro_mlds_en_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_es_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_en_v4_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_es_v4_calc] = '' AND\n    [v07a_arm_1][remote_survey_intro_mlds_en_v3_calc] = '' AND\n    [v07a_arm_1][remote_survey_intro_mlds_es_v3_calc] = '1',@DEFAULT= '2',\n\n@IF([v07a_arm_1][remote_survey_intro_mlds_en_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_es_v6_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_en_v4_calc] = '' AND [v07a_arm_1][remote_survey_intro_mlds_es_v4_calc] = '' AND\n    [v07a_arm_1][remote_survey_intro_mlds_en_v3_calc] = '1' AND\n    [v07a_arm_1][remote_survey_intro_mlds_es_v3_calc] = '1',@DEFAULT= '3',\n\n@READONLY))))))))) @HIDDEN"
+        }
+    ],
+    "prefLabel": {
+        "en": "remote_survey_intro_lang_v7a_calc"
+    },
+    "question": {
+        "en": "Language for 7a (1=English, 2=Spanish, 3=both)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "remote_introduction_7a",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "remote_introduction_7a"
+    },
+    "question": {
+        "en": "Thank you for participating in the Healthy Brain and Child Development (HBCD) Study! These surveys will help us learn more about your child's development. \n\nThe surveys will ask about how your child is growing and about the new things they are learning. There are no right or wrong answers. We want to learn about your child from you!  These surveys will take about 15 minutes.\n\nWhen you need breaks, you can take one between surveys. Just be sure to finish and submit the survey you're doing before your leave the page, so your answers are saved. When you click the survey link again, you will start the next survey.\n\nIf you have any questions or concerns, we are happy to help! Please contact your HBCD team for more information. Thank you for your participation!"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

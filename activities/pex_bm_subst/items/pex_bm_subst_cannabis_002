@@ -1,0 +1,86 @@
+{
+    "id": "pex_bm_subst_cannabis_002",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE='999,777'"
+        }
+    ],
+    "preamble": {
+        "en": "Cannabis - First trimester"
+    },
+    "prefLabel": {
+        "en": "pex_bm_subst_cannabis_002"
+    },
+    "question": {
+        "en": "Please check any cannabis used for any reason:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Smoked marijuana flower or bud in a pipe, joint, blunt, hookah, or bong"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Vaped marijuana flower or bud in a vape pen, vaporizer, or e-vaporizer"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Marijuana that you eat, such as pot cookies, gummy bears, brownies"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Vaped marijuana oils or concentrates, such as THC, hash, C02 or BHO oil, in a vape pen or vaporizer"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Smoked marijuana oils or concentrates, such as THC, hash, CO2 or BHO oil, kief, dabs, or wax in a pipe or dab rig"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Marijuana or THC infused alcohol drinks"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Marijuana tinctures taken orally"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

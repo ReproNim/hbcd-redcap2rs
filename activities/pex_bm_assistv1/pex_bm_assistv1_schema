@@ -30,6 +30,7 @@
             "items/pex_bm_assistv1_lt_i_use_016",
             "items/pex_bm_assistv1_lt_i_use_017",
             "items/pex_bm_assistv1_lt_i_use_018",
+            "items/pex_bm_assistv1_lt_i_use_019",
             "items/pex_bm_assistv1_instr02",
             "items/pex_bm_assistv1_lt_i_concern_001",
             "items/pex_bm_assistv1_lt_i_concern_002",
@@ -49,6 +50,7 @@
             "items/pex_bm_assistv1_lt_i_concern_016",
             "items/pex_bm_assistv1_lt_i_concern_017",
             "items/pex_bm_assistv1_lt_i_concern_018",
+            "items/pex_bm_assistv1_lt_i_concern_019",
             "items/pex_bm_assistv1_instr03",
             "items/pex_bm_assistv1_lt_i_concernoth_001",
             "items/pex_bm_assistv1_lt_i_concernoth_002",
@@ -68,6 +70,7 @@
             "items/pex_bm_assistv1_lt_i_concernoth_016",
             "items/pex_bm_assistv1_lt_i_concernoth_017",
             "items/pex_bm_assistv1_lt_i_concernoth_018",
+            "items/pex_bm_assistv1_lt_i_concernoth_019",
             "items/pex_bm_assistv1_instr04",
             "items/pex_bm_assistv1_lt_i_control_001",
             "items/pex_bm_assistv1_lt_i_control_002",
@@ -87,6 +90,7 @@
             "items/pex_bm_assistv1_lt_i_control_016",
             "items/pex_bm_assistv1_lt_i_control_017",
             "items/pex_bm_assistv1_lt_i_control_018",
+            "items/pex_bm_assistv1_lt_i_control_019",
             "items/pex_bm_assistv1_instr05",
             "items/pex_bm_assistv1_lt_i_tx_001",
             "items/pex_bm_assistv1_lt_i_tx_002",
@@ -106,6 +110,7 @@
             "items/pex_bm_assistv1_lt_i_tx_016",
             "items/pex_bm_assistv1_lt_i_tx_017",
             "items/pex_bm_assistv1_lt_i_tx_018",
+            "items/pex_bm_assistv1_lt_i_tx_019",
             "items/pex_bm_assistv1_instr06",
             "items/pex_bm_assistv1_lt_i_diagn_001",
             "items/pex_bm_assistv1_lt_i_diagn_002",
@@ -125,6 +130,7 @@
             "items/pex_bm_assistv1_lt_i_diagn_016",
             "items/pex_bm_assistv1_lt_i_diagn_017",
             "items/pex_bm_assistv1_lt_i_diagn_018",
+            "items/pex_bm_assistv1_lt_i_diagn_019",
             "items/pex_bm_assistv1_instr08",
             "items/pex_bm_assistv1_lt_i_med_001",
             "items/pex_bm_assistv1_lt_i_med_002",
@@ -148,6 +154,7 @@
             "items/pex_bm_assistv1_pre_i_use_016",
             "items/pex_bm_assistv1_pre_i_use_017",
             "items/pex_bm_assistv1_pre_i_use_018",
+            "items/pex_bm_assistv1_pre_i_use_019",
             "items/pex_bm_assistv1_instr10",
             "items/pex_bm_assistv1_pre_i_med_001",
             "items/pex_bm_assistv1_pre_i_med_002",
@@ -171,6 +178,7 @@
             "items/pex_bm_assistv1_during_i_use_016",
             "items/pex_bm_assistv1_during_i_use_017",
             "items/pex_bm_assistv1_during_i_use_018",
+            "items/pex_bm_assistv1_during_i_use_019",
             "items/pex_bm_assistv1_instr12",
             "items/pex_bm_assistv1_during_i_med_001",
             "items/pex_bm_assistv1_during_i_med_002",
@@ -374,8 +382,14 @@
                 "variableName": "pex_bm_assistv1_lt_i_use_018"
             },
             {
+                "isAbout": "items/pex_bm_assistv1_lt_i_use_019",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv1_lt_i_use_019"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv1_instr02",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv1_instr02"
             },
@@ -488,8 +502,14 @@
                 "variableName": "pex_bm_assistv1_lt_i_concern_018"
             },
             {
+                "isAbout": "items/pex_bm_assistv1_lt_i_concern_019",
+                "isVis": "pex_bm_assistv1_lt_i_use_019 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv1_lt_i_concern_019"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv1_instr03",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv1_instr03"
             },
@@ -602,8 +622,14 @@
                 "variableName": "pex_bm_assistv1_lt_i_concernoth_018"
             },
             {
+                "isAbout": "items/pex_bm_assistv1_lt_i_concernoth_019",
+                "isVis": "pex_bm_assistv1_lt_i_use_019 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv1_lt_i_concernoth_019"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv1_instr04",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv1_instr04"
             },
@@ -716,8 +742,14 @@
                 "variableName": "pex_bm_assistv1_lt_i_control_018"
             },
             {
+                "isAbout": "items/pex_bm_assistv1_lt_i_control_019",
+                "isVis": "pex_bm_assistv1_lt_i_use_019 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv1_lt_i_control_019"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv1_instr05",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv1_instr05"
             },
@@ -830,8 +862,14 @@
                 "variableName": "pex_bm_assistv1_lt_i_tx_018"
             },
             {
+                "isAbout": "items/pex_bm_assistv1_lt_i_tx_019",
+                "isVis": "pex_bm_assistv1_lt_i_use_019 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv1_lt_i_tx_019"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv1_instr06",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv1_instr06"
             },
@@ -944,8 +982,14 @@
                 "variableName": "pex_bm_assistv1_lt_i_diagn_018"
             },
             {
+                "isAbout": "items/pex_bm_assistv1_lt_i_diagn_019",
+                "isVis": "pex_bm_assistv1_lt_i_use_019 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv1_lt_i_diagn_019"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv1_instr08",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv1_instr08"
             },
@@ -1082,32 +1126,38 @@
                 "variableName": "pex_bm_assistv1_pre_i_use_018"
             },
             {
+                "isAbout": "items/pex_bm_assistv1_pre_i_use_019",
+                "isVis": "pex_bm_assistv1_lt_i_use_019 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv1_pre_i_use_019"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv1_instr10",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv1_instr10"
             },
             {
                 "isAbout": "items/pex_bm_assistv1_pre_i_med_001",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": true,
                 "variableName": "pex_bm_assistv1_pre_i_med_001"
             },
             {
                 "isAbout": "items/pex_bm_assistv1_pre_i_med_002",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": true,
                 "variableName": "pex_bm_assistv1_pre_i_med_002"
             },
             {
                 "isAbout": "items/pex_bm_assistv1_pre_i_med_003",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": true,
                 "variableName": "pex_bm_assistv1_pre_i_med_003"
             },
             {
                 "isAbout": "items/pex_bm_assistv1_instr11",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv1_instr11"
             },
@@ -1220,32 +1270,38 @@
                 "variableName": "pex_bm_assistv1_during_i_use_018"
             },
             {
+                "isAbout": "items/pex_bm_assistv1_during_i_use_019",
+                "isVis": "pex_bm_assistv1_lt_i_use_019 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv1_during_i_use_019"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv1_instr12",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv1_instr12"
             },
             {
                 "isAbout": "items/pex_bm_assistv1_during_i_med_001",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": true,
                 "variableName": "pex_bm_assistv1_during_i_med_001"
             },
             {
                 "isAbout": "items/pex_bm_assistv1_during_i_med_002",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": true,
                 "variableName": "pex_bm_assistv1_during_i_med_002"
             },
             {
                 "isAbout": "items/pex_bm_assistv1_during_i_med_003",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": true,
                 "variableName": "pex_bm_assistv1_during_i_med_003"
             },
             {
                 "isAbout": "items/pex_bm_assistv1_instr13",
-                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018)> 0",
+                "isVis": "sum(pex_bm_assistv1_lt_i_use_001,pex_bm_assistv1_lt_i_use_002,pex_bm_assistv1_lt_i_use_003,pex_bm_assistv1_lt_i_use_004,pex_bm_assistv1_lt_i_use_005,pex_bm_assistv1_lt_i_use_006,pex_bm_assistv1_lt_i_use_007,pex_bm_assistv1_lt_i_use_008,pex_bm_assistv1_lt_i_use_009,pex_bm_assistv1_lt_i_use_010,pex_bm_assistv1_lt_i_use_011,pex_bm_assistv1_lt_i_use_012,pex_bm_assistv1_lt_i_use_013,pex_bm_assistv1_lt_i_use_014,pex_bm_assistv1_lt_i_use_015,pex_bm_assistv1_lt_i_use_016,pex_bm_assistv1_lt_i_use_017,pex_bm_assistv1_lt_i_use_018,pex_bm_assistv1_lt_i_use_019)> 0",
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv1_instr13"
             },
@@ -1594,6 +1650,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid371",
+    "version": "revid404",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

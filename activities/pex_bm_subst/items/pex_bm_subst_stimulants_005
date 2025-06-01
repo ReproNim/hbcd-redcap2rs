@@ -1,0 +1,48 @@
+{
+    "id": "pex_bm_subst_stimulants_005",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Stimulants - Third trimester"
+    },
+    "prefLabel": {
+        "en": "pex_bm_subst_stimulants_005"
+    },
+    "question": {
+        "en": "In thethird trimester(28 gestational weeks- delivery) [pex_bm_subst_3tri_start] - [screening_arm_1][setup_delivery] of your pregnancy, did you usestimulantsfor any reason?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

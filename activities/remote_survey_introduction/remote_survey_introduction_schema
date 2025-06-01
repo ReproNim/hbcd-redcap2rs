@@ -8,14 +8,84 @@
     "ui": {
         "order": [
             "items/remote_introduction",
+            "items/remote_introduction_7a",
+            "items/remote_survey_intro_mchat_calc",
+            "items/remote_survey_intro_mlds_en_v6_calc",
+            "items/remote_survey_intro_mlds_en_v4_calc",
+            "items/remote_survey_intro_mlds_en_v3_calc",
+            "items/remote_survey_intro_mlds_es_v6_calc",
+            "items/remote_survey_intro_mlds_es_v4_calc",
+            "items/remote_survey_intro_mlds_es_v3_calc",
+            "items/remote_survey_intro_instr01",
+            "items/remote_survey_intro_lang_v7a_calc",
             "items/remote_survey_introduction_complete"
         ],
         "addProperties": [
             {
                 "isAbout": "items/remote_introduction",
-                "isVis": true,
+                "isVis": "event - name !== 'v07a_arm_1'",
                 "valueRequired": false,
                 "variableName": "remote_introduction"
+            },
+            {
+                "isAbout": "items/remote_introduction_7a",
+                "isVis": "event - name == 'v07a_arm_1'",
+                "valueRequired": false,
+                "variableName": "remote_introduction_7a"
+            },
+            {
+                "isAbout": "items/remote_survey_intro_mchat_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "remote_survey_intro_mchat_calc"
+            },
+            {
+                "isAbout": "items/remote_survey_intro_mlds_en_v6_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "remote_survey_intro_mlds_en_v6_calc"
+            },
+            {
+                "isAbout": "items/remote_survey_intro_mlds_en_v4_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "remote_survey_intro_mlds_en_v4_calc"
+            },
+            {
+                "isAbout": "items/remote_survey_intro_mlds_en_v3_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "remote_survey_intro_mlds_en_v3_calc"
+            },
+            {
+                "isAbout": "items/remote_survey_intro_mlds_es_v6_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "remote_survey_intro_mlds_es_v6_calc"
+            },
+            {
+                "isAbout": "items/remote_survey_intro_mlds_es_v4_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "remote_survey_intro_mlds_es_v4_calc"
+            },
+            {
+                "isAbout": "items/remote_survey_intro_mlds_es_v3_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "remote_survey_intro_mlds_es_v3_calc"
+            },
+            {
+                "isAbout": "items/remote_survey_intro_instr01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "remote_survey_intro_instr01"
+            },
+            {
+                "isAbout": "items/remote_survey_intro_lang_v7a_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "remote_survey_intro_lang_v7a_calc"
             },
             {
                 "isAbout": "items/remote_survey_introduction_complete",
@@ -26,6 +96,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid371",
+    "version": "revid404",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -29,6 +29,7 @@
             "../activities/mh_cg_ibqr/mh_cg_ibqr_schema",
             "../activities/mh_cg_mapdb_i_inf/mh_cg_mapdb_i_inf_schema",
             "../activities/pex_bm_assistv3/pex_bm_assistv3_schema",
+            "../activities/pex_bm_assistv4/pex_bm_assistv4_schema",
             "../activities/remote_survey_completion/remote_survey_completion_schema",
             "../activities/sed_bm_nbhsaf/sed_bm_nbhsaf_schema",
             "../activities/sed_bm_paces/sed_bm_paces_schema",
@@ -93,7 +94,8 @@
             "../activities/mh_cg_quic/mh_cg_quic_schema",
             "../activities/ph_cg_pedsql/ph_cg_pedsql_schema",
             "../activities/sed_cg_incarc/sed_cg_incarc_schema",
-            "../activities/mh_ch_mchat/mh_ch_mchat_schema"
+            "../activities/mh_ch_mchat/mh_ch_mchat_schema",
+            "../activities/pex_bm_subst/pex_bm_subst_schema"
         ],
         "addProperties": [
             {
@@ -247,6 +249,14 @@
                     "en": "Pex Bm Assistv3"
                 },
                 "variableName": "pex_bm_assistv3_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_assistv4/pex_bm_assistv4_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Assistv4"
+                },
+                "variableName": "pex_bm_assistv4_schema"
             },
             {
                 "isAbout": "../activities/remote_survey_completion/remote_survey_completion_schema",
@@ -767,10 +777,18 @@
                     "en": "Mh Ch Mchat"
                 },
                 "variableName": "mh_ch_mchat_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_subst/pex_bm_subst_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Subst"
+                },
+                "variableName": "pex_bm_subst_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid371",
+    "version": "revid404",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
