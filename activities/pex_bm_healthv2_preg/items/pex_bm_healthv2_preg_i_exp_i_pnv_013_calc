@@ -1,6 +1,13 @@
 {
     "id": "pex_bm_healthv2_preg_i_exp_i_pnv_013_calc",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "description": {
         "en": "Calculated Gestational Age at initiation of prenatal care"
     },
