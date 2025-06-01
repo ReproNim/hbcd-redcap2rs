@@ -124,7 +124,7 @@
             },
             {
                 "isAbout": "items/ph_cg_bisq_pb_006_alert",
-                "isVis": "ph_cg_bisq_pb_006 > ph_cg_bisq_pb_001",
+                "isVis": "ph_cg_bisq_pb_006 < ph_cg_bisq_pb_001",
                 "valueRequired": false,
                 "variableName": "ph_cg_bisq_pb_006_alert"
             },
@@ -257,6 +257,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid433",
+    "version": "revid438",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
